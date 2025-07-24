@@ -62,7 +62,7 @@ def _compute_people_leaderboard(
     """
     name_2_pint_count = _get_name_2_pint_count(input_pints_df)
 
-    # A data frame is only here to leverage the `sort_values` functionality
+    # A data frame is only used here to leverage the `sort_values` functionality
     name_and_pint_count_df = _pd.DataFrame(
         data={
             "name": name_2_pint_count.keys(),
