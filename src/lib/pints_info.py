@@ -1,12 +1,15 @@
 import collections as _coll
-import json as _json
 import pandas as _pd
-import os as _os
-import requests as _req
 import typing as _t
 
 
-def compute_pints_info(input_pints_df):
+def compute_pints_info(input_pints_df: _pd.DataFrame) -> _t.Dict[str, _t.Any]:
+    """
+    Compute pints-related information using the input data provided.
+
+    :param input_pints_df: Input pints data frame.
+    :return: Pints-related information which will be used for visualisation.
+    """
     return {
         "total_pint_count": _compute_total_pint_count(input_pints_df),
         "leaderboard": _compute_people_leaderboard(input_pints_df),
