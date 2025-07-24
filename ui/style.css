@@ -1,0 +1,153 @@
+/* Base Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 16px; /* 1rem = 16px base */
+}
+
+/* Layout background wrapper */
+.page-wrapper {
+  max-height: 90vh;
+  background-color: #f5f6f8;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+/* App card container */
+.app-container {
+  width: 90%;
+  max-width: 200rem; /* 960px */
+  background-color: white;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Header */
+.header {
+  background: linear-gradient(135deg, #0045FF, #00C2FF);
+  color: white;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  /* border-bottom-left-radius: 2rem; */
+  /* border-bottom-right-radius: 2rem; */
+}
+
+.header h1 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.balance {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+
+/* Transactions */
+.transactions {
+  padding: 1.5rem;
+}
+
+.leaderboard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.transaction:last-child {
+  margin-bottom: 0;
+}
+
+.transaction-info {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 50%;
+  background: #e0e7ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  color: #4f46e5;
+  margin-right: 0.75rem;
+}
+
+.text {
+  font-size: 1rem;
+  color: #111827;
+}
+
+.amount {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.positive {
+  color: #10b981;
+}
+
+.negative {
+  color: #ef4444;
+}
+
+.transaction-list {
+  max-height: 1200px;        /* or whatever height fits your layout */
+  overflow-y: auto;
+  border-radius: 1rem;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+/* Optional: Style scrollbar (WebKit browsers only) */
+.transaction-list::-webkit-scrollbar {
+  width: 6px;
+}
+.transaction-list::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 4px;
+}
+
+/* Responsive tweak for smaller screens */
+@media (max-width: 30rem) {
+  :root {
+    font-size: 15px;
+  }
+
+  .transactions {
+    padding: 1rem;
+  }
+
+  .header {
+    padding: 1.5rem 1rem;
+  }
+}
+
+/* Charts */
+.chart-scroll {
+  overflow-x: auto;
+  /* padding: 1rem 0;
+  border: 1px solid #ddd; */
+}
+
+#visitsChart,
+#pintsChart {
+  /* width will be set dynamically */
+  height: 500px;
+  display: block;
+}
