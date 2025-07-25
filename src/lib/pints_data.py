@@ -1,19 +1,21 @@
 import collections as _coll
+import datetime as _dt
 import pandas as _pd
 import typing as _t
 
 
-def compute_pints_info(input_pints_df: _pd.DataFrame) -> _t.Dict[str, _t.Any]:
+def compute_pints_data(input_pints_df: _pd.DataFrame) -> _t.Dict[str, _t.Any]:
     """
-    Compute pints-related information using the input data provided.
+    Compute pints-related data using the input data provided.
 
     :param input_pints_df: Input pints data frame.
-    :return: Pints-related information which will be used for visualisation.
+    :return: Pints-related data which will be used for visualisation.
     """
     return {
         "total_pint_count": _compute_total_pint_count(input_pints_df),
-        "leaderboard": _compute_people_leaderboard(input_pints_df),
+        "leaderboard": _compute_company_leaderboard(input_pints_df),
         "location_info": _compute_location_info(input_pints_df),
+        "date_info": _compute_date_info(input_pints_df),
     }
 
 
@@ -22,14 +24,55 @@ def compute_pints_info(input_pints_df: _pd.DataFrame) -> _t.Dict[str, _t.Any]:
 # ==============================================================================
 
 
+def _compute_date_info(input_pints_df: _pd.DataFrame) -> _t.Dict[str, _t.Any]:
+    """
+    Compute pints-related data.
+
+    :param input_pints_df: Input pints data frame.
+    :return: Pints-related date data.
+    """
+    date_info_dict = {}
+    date_series = input_pints_df["Date"]
+    df = input_pints_df.assign(
+        **{
+            "_datetime_date_": date_series.map(
+                lambda x: _dt.datetime.strptime(x, "%d/%m/%Y").date()
+            )
+        }
+    )
+
+    for date_col_name, output_str, time_format_str in [
+        ("day", "pints_per_day_of_the_week", "%A"),
+        ("week", "pints_per_week_of_the_year", "%U"),
+        ("month", "pints_per_month_of_the_year", "%B"),
+    ]:
+        df[date_col_name] = df["_datetime_date_"].map(
+            lambda x: x.strftime(time_format_str)
+        )
+        date_info_dict[output_str] = (
+            df.groupby(date_col_name)
+            .agg({"Number": "sum", "Pint": lambda x: x.mode().iloc[0]})
+            .reset_index()
+            .rename(
+                columns={
+                    "Number": "number_of_pints",
+                    "Pint": "most_popular_drink",
+                }
+            )
+            .to_dict("records")
+        )
+
+    return date_info_dict
+
+
 def _compute_location_info(
     input_pints_df: _pd.DataFrame,
 ) -> _t.List[_t.Dict[str, _t.Any]]:
     """
-    Compute pints-related information about each location visited.
+    Compute pints-related data about each location visited.
 
     :param input_pints_df: Input pints data frame.
-    :return: Pints-related information as a list of dictionaries.
+    :return: Pints-related data as a list of dictionaries.
     """
     df = (
         _pd.DataFrame(
@@ -51,11 +94,11 @@ def _compute_location_info(
     return df.to_dict("records")
 
 
-def _compute_people_leaderboard(
+def _compute_company_leaderboard(
     input_pints_df: _pd.DataFrame,
 ) -> _t.List[_t.Dict[str, _t.Any]]:
     """
-    Compute the leaderboard consisting of how many pints people have had.
+    Compute a leaderboard consisting of how many pints people have had.
 
     :param input_pints_df: Input pints data frame.
     :return: Sorted leaderboard in descending order.
