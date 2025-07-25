@@ -1,10 +1,9 @@
 import pandas as _pd
-import typing as _t
 
 
 def clean_up_input_pints_data(input_data_df: _pd.DataFrame) -> _pd.DataFrame:
     """
-    Clean
+    Clean up input data.
 
     :param input_data_df: Input data frame.
     :return: Cleaned-up data frame.
@@ -17,10 +16,13 @@ def clean_up_input_pints_data(input_data_df: _pd.DataFrame) -> _pd.DataFrame:
         lambda x: x.split(",") if _pd.notnull(x) else []
     )
     company_list_series = company_list_series.map(lambda x: [y.lstrip() for y in x])
-    # TODO Finish once spreadsheet is up to date
+
+    # There is probably a much more efficient way of doing this
+    df["company_list"] = company_list_series.map(
+        lambda x: [_FRIENDS_RENAME_MAP.get(y, y) for y in x]
+    )
+
+    return df
 
 
-_FRIENDS_REMAP =   {
-    "Roisin": "Róisín",
-    "Stan": "Stanley"
-}
+_FRIENDS_RENAME_MAP = {"Roisin": "Róisín", "Stan": "Stanley"}

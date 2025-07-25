@@ -104,7 +104,11 @@ def _compute_company_leaderboard(
     :param input_pints_df: Input pints data frame.
     :return: Sorted leaderboard in descending order.
     """
-    name_2_pint_count = _get_name_2_pint_count(input_pints_df)
+    # Create a mapping from name to pint count
+    name_2_pint_count = _coll.defaultdict(int)
+    for _, row in input_pints_df.iterrows():
+        for name in row["company_list"]:
+            name_2_pint_count[name] += row["Number"]
 
     # A data frame is only used here to leverage the `sort_values` functionality
     name_and_pint_count_df = _pd.DataFrame(
@@ -135,18 +139,3 @@ def _compute_total_pint_count(input_pints_df: _pd.DataFrame) -> float:
     :return: The total number of pints consumed.
     """
     return sum(input_pints_df["Number"])
-
-
-def _get_name_2_pint_count(df: _pd.DataFrame) -> _t.Dict[str, float]:
-    df = df.loc[df["Date"].notnull()]
-    company_list_series = df["Company"].map(
-        lambda x: x.split(",") if _pd.notnull(x) else []
-    )
-    company_list_series = company_list_series.map(lambda x: [y.lstrip() for y in x])
-    df = df.assign(**{"_company_list_": company_list_series})
-    name_2_pint_count = _coll.defaultdict(int)
-    for _, row in df.iterrows():
-        for name in row["_company_list_"]:
-            name_2_pint_count[name] += row["Number"]
-
-    return name_2_pint_count
