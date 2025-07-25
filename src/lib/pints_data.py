@@ -24,6 +24,42 @@ def compute_pints_data(input_pints_df: _pd.DataFrame) -> _t.Dict[str, _t.Any]:
 # ==============================================================================
 
 
+def _compute_company_leaderboard(
+    input_pints_df: _pd.DataFrame,
+) -> _t.List[_t.Dict[str, _t.Any]]:
+    """
+    Compute a leaderboard consisting of how many pints people have had.
+
+    :param input_pints_df: Input pints data frame.
+    :return: Sorted leaderboard in descending order.
+    """
+    # Create a mapping from name to pint count
+    name_2_pint_count = _coll.defaultdict(int)
+    for _, row in input_pints_df.iterrows():
+        for name in row["company_list"]:
+            name_2_pint_count[name] += row["Number"]
+
+    # A data frame is only used here to leverage the `sort_values` functionality
+    name_and_pint_count_df = _pd.DataFrame(
+        data={
+            "name": name_2_pint_count.keys(),
+            "number_of_pints": name_2_pint_count.values(),
+        }
+    ).sort_values(by="number_of_pints", ascending=False)
+    sorted_name_and_pint_count_list = name_and_pint_count_df.to_records(index=False)
+
+    leaderboard = []
+    for name, pint_count in sorted_name_and_pint_count_list:
+        leaderboard_item = {
+            "name": name,
+            "pint_count": float(pint_count),
+            "icon": "&#x1F37A",
+        }
+        leaderboard.append(leaderboard_item)
+
+    return leaderboard
+
+
 def _compute_date_info(input_pints_df: _pd.DataFrame) -> _t.Dict[str, _t.Any]:
     """
     Compute pints-related data.
@@ -95,40 +131,14 @@ def _compute_location_info(
     return df.to_dict("records")
 
 
-def _compute_company_leaderboard(
-    input_pints_df: _pd.DataFrame,
-) -> _t.List[_t.Dict[str, _t.Any]]:
+def _compute_pint_info(input_pints_df: _pd.DataFrame) -> _pd.DataFrame:
     """
-    Compute a leaderboard consisting of how many pints people have had.
+    Compute pints-related data about the brand/type of drink.
 
     :param input_pints_df: Input pints data frame.
-    :return: Sorted leaderboard in descending order.
+    :return: Pints-related information.
     """
-    # Create a mapping from name to pint count
-    name_2_pint_count = _coll.defaultdict(int)
-    for _, row in input_pints_df.iterrows():
-        for name in row["company_list"]:
-            name_2_pint_count[name] += row["Number"]
-
-    # A data frame is only used here to leverage the `sort_values` functionality
-    name_and_pint_count_df = _pd.DataFrame(
-        data={
-            "name": name_2_pint_count.keys(),
-            "number_of_pints": name_2_pint_count.values(),
-        }
-    ).sort_values(by="number_of_pints", ascending=False)
-    sorted_name_and_pint_count_list = name_and_pint_count_df.to_records(index=False)
-
-    leaderboard = []
-    for name, pint_count in sorted_name_and_pint_count_list:
-        leaderboard_item = {
-            "name": name,
-            "pint_count": float(pint_count),
-            "icon": "&#x1F37A",
-        }
-        leaderboard.append(leaderboard_item)
-
-    return leaderboard
+    # TODO Add pints related information
 
 
 def _compute_total_pint_count(input_pints_df: _pd.DataFrame) -> float:
