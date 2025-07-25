@@ -41,6 +41,7 @@ def _compute_date_info(input_pints_df: _pd.DataFrame) -> _t.Dict[str, _t.Any]:
         }
     )
 
+    # TODO Sort each entry chronologically
     for date_col_name, output_str, time_format_str in [
         ("day", "pints_per_day_of_the_week", "%A"),
         ("week", "pints_per_week_of_the_year", "%U"),
@@ -136,7 +137,7 @@ def _compute_total_pint_count(input_pints_df: _pd.DataFrame) -> float:
     return sum(input_pints_df["Number"])
 
 
-def _get_name_2_pint_count(df) -> _t.Dict[str, float]:
+def _get_name_2_pint_count(df: _pd.DataFrame) -> _t.Dict[str, float]:
     df = df.loc[df["Date"].notnull()]
     company_list_series = df["Company"].map(
         lambda x: x.split(",") if _pd.notnull(x) else []

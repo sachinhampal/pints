@@ -126,6 +126,13 @@ const loadCharts = async () => {
     const pintLabels = locationsPints.map(loc => loc.name);
     const pints = locationsPints.map(loc => loc.number_of_pints);
 
+    // Date info
+    const pintsByMonth = data.date_info.pints_per_month_of_the_year
+        .slice().sort((a, b) => b.number_of_pints - a.number_of_pints);
+
+    const monthLabel = pintsByMonth.map(info => info.month);
+    const numberOfPintsPerMonth = pintsByMonth.map(info => info.number_of_pints)
+
     // Chart base options
     const baseOptions = {
       chart: {
@@ -200,6 +207,29 @@ const loadCharts = async () => {
         categories: pintLabels
       },
       series: [{ name: 'Pints', data: pints }],
+      colors: ['#0084ff']
+    }).render();
+
+      // Create and render Pints chart
+    new ApexCharts(document.querySelector("#pintsByMonthChart"), {
+      ...baseOptions,
+      chart: {
+        ...baseOptions.chart,
+        width: monthLabel.length * 200
+      },
+      xaxis: {
+        ...baseOptions.xaxis,
+        title: {
+          text: 'Month',
+          style: {
+            fontSize: '14px',
+            fontWeight: '600',
+            color: '#333'
+          }
+        },
+        categories: monthLabel
+      },
+      series: [{ name: 'Pints per Month', data: numberOfPintsPerMonth }],
       colors: ['#0084ff']
     }).render();
 
