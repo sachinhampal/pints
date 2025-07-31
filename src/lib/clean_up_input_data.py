@@ -16,8 +16,7 @@ def clean_up_input_pints_data(input_data_df: _pd.DataFrame) -> _pd.DataFrame:
         lambda x: x.split(",") if _pd.notnull(x) else []
     )
     company_list_series = company_list_series.map(lambda x: [y.lstrip() for y in x])
-
-    # There is probably a much more efficient way of doing this
+    # - There is probably a much more efficient way of doing this
     df["company_list"] = company_list_series.map(
         lambda x: [_FRIENDS_RENAME_MAP.get(y, y) for y in x]
     )

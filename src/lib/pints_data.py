@@ -13,6 +13,7 @@ def compute_pints_data(input_pints_df: _pd.DataFrame) -> _t.Dict[str, _t.Any]:
     """
     return {
         "total_pint_count": _compute_total_pint_count(input_pints_df),
+        "pint_info": _compute_pint_info(input_pints_df),
         "leaderboard": _compute_company_leaderboard(input_pints_df),
         "location_info": _compute_location_info(input_pints_df),
         "date_info": _compute_date_info(input_pints_df),
@@ -139,6 +140,14 @@ def _compute_pint_info(input_pints_df: _pd.DataFrame) -> _pd.DataFrame:
     :return: Pints-related information.
     """
     # TODO Add pints related information
+    return (
+        input_pints_df.groupby("Pint")["Number"]
+        .sum()
+        .reset_index()
+        .sort_values("Number", ascending=False)
+        .rename(columns={"Pint": "name", "Number": "count"})
+        .to_dict("records")
+    )
 
 
 def _compute_total_pint_count(input_pints_df: _pd.DataFrame) -> float:

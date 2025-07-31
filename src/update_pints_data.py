@@ -20,7 +20,6 @@ def update_pints_data(output_file_name) -> None:
     with open(output_file_path, mode="w", encoding="utf-8") as file:
         _json.dump(pints_info, file)
 
-
 if __name__ == "__main__":
     output_file_name = "pints_info"
     update_pints_data(output_file_name)
