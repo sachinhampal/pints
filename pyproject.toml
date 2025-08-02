@@ -11,3 +11,5 @@ dependencies = [
     "requests>=2.32.4",
     "shapely>=2.0.7",
 ]
+[tool.setuptools]
+packages = ["backend"]

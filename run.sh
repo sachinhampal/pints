@@ -6,10 +6,10 @@
 # set -e
 
 # echo "Installing dependencies with uv..."
-# uv pip install -r requirements.txt
+# uv pip install .
 
 # echo "Running data update script..."
-# python scripts/update_data.py
+# uv run backend/scripts/update_pints_data.py
 
 # echo "Serving static UI from ui/..."
 # cd ui

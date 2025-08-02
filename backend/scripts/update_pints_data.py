@@ -7,6 +7,8 @@ import pathlib as _pth
 
 def update_pints_data(output_file_name) -> None:
     raw_data_file_path = _pth.Path("./Pints_raw_data.csv")
+
+    # TODO Change from (incorrectly) directly writing to the "ui" package and use a symlink instead
     output_file_path = _pth.Path(f"./ui/data/{output_file_name}.json")
 
     # Load and clean the data
