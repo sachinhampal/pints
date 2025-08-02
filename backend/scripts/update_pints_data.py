@@ -1,6 +1,6 @@
 import json as _json
-import lib.clean_up_input_data as _cpd
-import lib.pints_data as _pi
+import clean_up_input_data as _cpd
+import pints_data as _pi
 import pandas as _pd
 import pathlib as _pth
 
