@@ -29,7 +29,7 @@ def _compute_company_leaderboard(
     input_pints_df: _pd.DataFrame,
 ) -> _t.List[_t.Dict[str, _t.Any]]:
     """
-    Compute a leaderboard consisting of how many pints people have had.
+    Compute a leaderboard of how many pints people have had.
 
     :param input_pints_df: Input pints data frame.
     :return: Sorted leaderboard in descending order.
@@ -63,7 +63,7 @@ def _compute_company_leaderboard(
 
 def _compute_date_info(input_pints_df: _pd.DataFrame) -> _t.Dict[str, _t.Any]:
     """
-    Compute pints-related data.
+    Compute pints-related date information.
 
     :param input_pints_df: Input pints data frame.
     :return: Pints-related date data.
@@ -139,7 +139,6 @@ def _compute_pint_info(input_pints_df: _pd.DataFrame) -> _pd.DataFrame:
     :param input_pints_df: Input pints data frame.
     :return: Pints-related information.
     """
-    # TODO Add pints related information
     return (
         input_pints_df.groupby("Pint")["Number"]
         .sum()
