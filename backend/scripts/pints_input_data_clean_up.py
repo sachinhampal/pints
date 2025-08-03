@@ -11,6 +11,10 @@ def clean_up_input_pints_data(input_data_df: _pd.DataFrame) -> _pd.DataFrame:
     # Remove empty entries
     df = input_data_df.loc[input_data_df["Date"].notnull()]
 
+    # Force data types is required becasue the data polled from the Google Sheets API results in string data types when we expect floats
+    # TODO Check that the columns names in `_COLUMN_NAME_TO_DTYPE` match the raw data's column names
+    df = df.astype(_COLUMN_NAME_TO_DTYPE)
+
     # Add column "company_list" to data frame
     company_list_series = df["Company"].map(
         lambda x: x.split(",") if _pd.notnull(x) else []
@@ -25,3 +29,13 @@ def clean_up_input_pints_data(input_data_df: _pd.DataFrame) -> _pd.DataFrame:
 
 
 _FRIENDS_RENAME_MAP = {"Roisin": "Róisín", "Stan": "Stanley"}
+_COLUMN_NAME_TO_DTYPE = {
+    "Date": str,
+    "Location": str,
+    "Pint": str,
+    "Number": float,
+    "Cost (per pint)": str,
+    "Company": str,
+    "Comments": str,
+    "Spend": str,
+}
