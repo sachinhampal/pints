@@ -1,0 +1,44 @@
+
+.left {
+  flex: 1; /* Takes up half the space */
+  background-color: #f0f0f0;
+  padding: 0px 0px 0px 0px;
+}
+
+.right {
+  flex: 1; /* Takes up the other half */
+  background-color: #f0f0f0;
+  /* padding: 10px; */
+}
+
+.top {
+  background: #f0f0f0;
+  /* padding: 10px; */
+}
+
+.bottom {
+  background: #f0f0f0;
+  /* padding: 10px; */
+}
+
+.chart {
+    height: 75%;
+    width: 75%;
+    /* display: 'flex'; */
+}
+
+
+.grid {
+    height: 75%;
+    width: 40%;
+    
+    /* display: 'flex'; */
+    /* margin: 40px; */
+}
+
+.cdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;           
+}

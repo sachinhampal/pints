@@ -2698,7 +2698,4545 @@
                 "number_of_pints": 72.5,
                 "most_popular_drink": "Guinness"
             }
-        ]
+        ],
+        "time_series_entry_info": {
+            "0": {
+                "_datetime_date_": "2025-01-03",
+                "company": [
+                    "Martha"
+                ],
+                "Number": 4,
+                "Pint": "Guinness",
+                "cumulative_number": 4
+            },
+            "1": {
+                "_datetime_date_": "2025-01-04",
+                "company": [
+                    "Jamie",
+                    "Nina",
+                    "Alex"
+                ],
+                "Number": 3,
+                "Pint": "Guinness",
+                "cumulative_number": 7
+            },
+            "2": {
+                "_datetime_date_": "2025-01-08",
+                "company": [
+                    "Lucia"
+                ],
+                "Number": 1,
+                "Pint": "Lucky Saint",
+                "cumulative_number": 8
+            },
+            "3": {
+                "_datetime_date_": "2025-01-09",
+                "company": [
+                    "Becky"
+                ],
+                "Number": 5,
+                "Pint": "Guinness",
+                "cumulative_number": 13
+            },
+            "4": {
+                "_datetime_date_": "2025-01-10",
+                "company": [
+                    "Alina",
+                    "Georgia B",
+                    "Avani",
+                    "Alex",
+                    "Naomi",
+                    "Saskia",
+                    "Charlie G",
+                    "Nikhita"
+                ],
+                "Number": 1,
+                "Pint": "Guinness ",
+                "cumulative_number": 14
+            },
+            "5": {
+                "_datetime_date_": "2025-01-10",
+                "company": [
+                    "Sam C",
+                    "Alex"
+                ],
+                "Number": 2,
+                "Pint": "Guinness",
+                "cumulative_number": 16
+            },
+            "6": {
+                "_datetime_date_": "2025-01-15",
+                "company": [
+                    "Finn"
+                ],
+                "Number": 2,
+                "Pint": "Guinness",
+                "cumulative_number": 18
+            },
+            "7": {
+                "_datetime_date_": "2025-01-15",
+                "company": [
+                    "Kit"
+                ],
+                "Number": 2,
+                "Pint": "Guinness",
+                "cumulative_number": 20
+            },
+            "8": {
+                "_datetime_date_": "2025-01-16",
+                "company": [
+                    "Finn"
+                ],
+                "Number": 1,
+                "Pint": "Skoosh",
+                "cumulative_number": 21
+            },
+            "9": {
+                "_datetime_date_": "2025-01-18",
+                "company": [
+                    "Finn",
+                    "Anna",
+                    "Ella",
+                    "Nina",
+                    "Laurie",
+                    "Hannah S",
+                    "Alex",
+                    "Izzy",
+                    "Juhi",
+                    "Dan R"
+                ],
+                "Number": 4,
+                "Pint": "Guinness",
+                "cumulative_number": 25
+            },
+            "10": {
+                "_datetime_date_": "2025-01-18",
+                "company": [
+                    "Finn",
+                    "Anna",
+                    "Charlie"
+                ],
+                "Number": 3,
+                "Pint": "Oona",
+                "cumulative_number": 28
+            },
+            "11": {
+                "_datetime_date_": "2025-01-18",
+                "company": [
+                    "Finn",
+                    "Laurie",
+                    "Anna"
+                ],
+                "Number": 1,
+                "Pint": "Skoosh",
+                "cumulative_number": 29
+            },
+            "12": {
+                "_datetime_date_": "2025-01-22",
+                "company": [
+                    "Miranda"
+                ],
+                "Number": 2,
+                "Pint": "Skoosh",
+                "cumulative_number": 31
+            },
+            "13": {
+                "_datetime_date_": "2025-01-23",
+                "company": [
+                    "Finn",
+                    "Shane",
+                    "Dan P",
+                    "Anna AD",
+                    "Tom"
+                ],
+                "Number": 6,
+                "Pint": "Renaissance",
+                "cumulative_number": 37
+            },
+            "14": {
+                "_datetime_date_": "2025-01-23",
+                "company": [
+                    "Jess"
+                ],
+                "Number": 3,
+                "Pint": "Guinness",
+                "cumulative_number": 40
+            },
+            "15": {
+                "_datetime_date_": "2025-01-24",
+                "company": [
+                    "Finn"
+                ],
+                "Number": 4,
+                "Pint": "Skoosh",
+                "cumulative_number": 44
+            },
+            "16": {
+                "_datetime_date_": "2025-01-25",
+                "company": [
+                    "Nina",
+                    "Jo H",
+                    "Alex",
+                    "Izzy",
+                    "Hannah",
+                    "Dan R"
+                ],
+                "Number": 8,
+                "Pint": "Guinness",
+                "cumulative_number": 52
+            },
+            "17": {
+                "_datetime_date_": "2025-01-25",
+                "company": [
+                    "Conor",
+                    "Paddy",
+                    "Dan P"
+                ],
+                "Number": 5,
+                "Pint": "Skoosh",
+                "cumulative_number": 57
+            },
+            "18": {
+                "_datetime_date_": "2025-01-27",
+                "company": [
+                    "Kit",
+                    "Mark"
+                ],
+                "Number": 2,
+                "Pint": "Ghost Ship Zero",
+                "cumulative_number": 59
+            },
+            "19": {
+                "_datetime_date_": "2025-01-28",
+                "company": [
+                    "Robbie M",
+                    "Abeer",
+                    "Greg",
+                    "Ruby",
+                    "Sarah",
+                    "Bailey",
+                    "Jessica C",
+                    "Kit",
+                    "Ellen",
+                    "Jake",
+                    "Diogo",
+                    "Georgie",
+                    "Mark",
+                    "Beth",
+                    "Jon S"
+                ],
+                "Number": 6,
+                "Pint": "Guinness",
+                "cumulative_number": 65
+            },
+            "20": {
+                "_datetime_date_": "2025-01-29",
+                "company": [
+                    "Robbie M",
+                    "Abeer",
+                    "Greg",
+                    "Ruby",
+                    "Sarah",
+                    "Bailey",
+                    "Jessica C",
+                    "Kit",
+                    "Jake",
+                    "Diogo",
+                    "Georgie",
+                    "Mark",
+                    "Beth",
+                    "Jon S"
+                ],
+                "Number": 2,
+                "Pint": "Guinness",
+                "cumulative_number": 67
+            },
+            "21": {
+                "_datetime_date_": "2025-01-29",
+                "company": [
+                    "Finn",
+                    "Izzy",
+                    "Dan R",
+                    "Alex"
+                ],
+                "Number": 4,
+                "Pint": "Skoosh",
+                "cumulative_number": 71
+            },
+            "22": {
+                "_datetime_date_": "2025-01-31",
+                "company": [
+                    "Henry",
+                    "Bea",
+                    "Charlie F",
+                    "Becky",
+                    "Tim",
+                    "Georgia B"
+                ],
+                "Number": 4,
+                "Pint": "Murphy's",
+                "cumulative_number": 75
+            },
+            "23": {
+                "_datetime_date_": "2025-01-31",
+                "company": [
+                    "Finn",
+                    "Jeremy"
+                ],
+                "Number": 1,
+                "Pint": "Guinness",
+                "cumulative_number": 76
+            },
+            "24": {
+                "_datetime_date_": "2025-02-06",
+                "company": [
+                    "Finn"
+                ],
+                "Number": 4,
+                "Pint": "Skoosh",
+                "cumulative_number": 80
+            },
+            "25": {
+                "_datetime_date_": "2025-02-06",
+                "company": [
+                    "Joseph"
+                ],
+                "Number": 1,
+                "Pint": "Ichiban",
+                "cumulative_number": 81
+            },
+            "26": {
+                "_datetime_date_": "2025-02-07",
+                "company": [
+                    "Ellie A",
+                    "Dan P"
+                ],
+                "Number": 5,
+                "Pint": "Guinness ",
+                "cumulative_number": 86
+            },
+            "27": {
+                "_datetime_date_": "2025-02-08",
+                "company": [
+                    "Finn",
+                    "Tom M",
+                    "Guy",
+                    "Dylan"
+                ],
+                "Number": 7,
+                "Pint": "Guinness",
+                "cumulative_number": 93
+            },
+            "28": {
+                "_datetime_date_": "2025-02-08",
+                "company": [
+                    "Miranda"
+                ],
+                "Number": 5,
+                "Pint": "Camden Pale",
+                "cumulative_number": 98
+            },
+            "29": {
+                "_datetime_date_": "2025-02-11",
+                "company": [
+                    "Passy"
+                ],
+                "Number": 2,
+                "Pint": "Guinness",
+                "cumulative_number": 100
+            },
+            "30": {
+                "_datetime_date_": "2025-02-12",
+                "company": [
+                    "Sachin",
+                    "Tor",
+                    "Laurie"
+                ],
+                "Number": 2,
+                "Pint": "Guinness",
+                "cumulative_number": 102
+            },
+            "31": {
+                "_datetime_date_": "2025-02-13",
+                "company": [
+                    "Finn",
+                    "Henry",
+                    "Jez",
+                    "Tom M",
+                    "Dylan",
+                    "Guy"
+                ],
+                "Number": 2,
+                "Pint": "Guinness",
+                "cumulative_number": 104
+            },
+            "32": {
+                "_datetime_date_": "2025-02-13",
+                "company": [
+                    "Tan",
+                    "Georgie",
+                    "Kit",
+                    "Rosalin"
+                ],
+                "Number": 2,
+                "Pint": "",
+                "cumulative_number": 106
+            },
+            "33": {
+                "_datetime_date_": "2025-02-14",
+                "company": [
+                    "Yelande",
+                    "Oli",
+                    "Henny",
+                    "Alex",
+                    "Ellie"
+                ],
+                "Number": 4,
+                "Pint": "Mosaic ",
+                "cumulative_number": 110
+            },
+            "34": {
+                "_datetime_date_": "2025-02-14",
+                "company": [
+                    "Finn"
+                ],
+                "Number": 2,
+                "Pint": "Guinness",
+                "cumulative_number": 112
+            },
+            "35": {
+                "_datetime_date_": "2025-02-15",
+                "company": [
+                    "Sam C"
+                ],
+                "Number": 3,
+                "Pint": "Guinness",
+                "cumulative_number": 115
+            },
+            "36": {
+                "_datetime_date_": "2025-02-16",
+                "company": [
+                    "Passy"
+                ],
+                "Number": 1,
+                "Pint": "Guinness",
+                "cumulative_number": 116
+            },
+            "37": {
+                "_datetime_date_": "2025-02-22",
+                "company": [
+                    "Tor",
+                    "Laurie",
+                    "Dan P",
+                    "Henny"
+                ],
+                "Number": 2,
+                "Pint": "Guinness",
+                "cumulative_number": 118
+            },
+            "38": {
+                "_datetime_date_": "2025-02-24",
+                "company": [
+                    "Róisín"
+                ],
+                "Number": 3.5,
+                "Pint": "Guinness",
+                "cumulative_number": 121.5
+            },
+            "39": {
+                "_datetime_date_": "2025-02-26",
+                "company": [
+                    "Bailey",
+                    "Beth"
+                ],
+                "Number": 4,
+                "Pint": "Guinness",
+                "cumulative_number": 125.5
+            },
+            "40": {
+                "_datetime_date_": "2025-02-27",
+                "company": [
+                    "Akshay",
+                    "Rohin",
+                    "Dan P",
+                    "Sachin"
+                ],
+                "Number": 6,
+                "Pint": "Guinness",
+                "cumulative_number": 131.5
+            },
+            "41": {
+                "_datetime_date_": "2025-03-01",
+                "company": [
+                    "Noah",
+                    "Stanley",
+                    "Luke"
+                ],
+                "Number": 3,
+                "Pint": "Guinness",
+                "cumulative_number": 134.5
+            },
+            "42": {
+                "_datetime_date_": "2025-03-02",
+                "company": [
+                    "Róisín"
+                ],
+                "Number": 4,
+                "Pint": "Guinness",
+                "cumulative_number": 138.5
+            },
+            "43": {
+                "_datetime_date_": "2025-03-04",
+                "company": [
+                    "Finn",
+                    "Anna"
+                ],
+                "Number": 3,
+                "Pint": "Guinness",
+                "cumulative_number": 141.5
+            },
+            "44": {
+                "_datetime_date_": "2025-03-05",
+                "company": [
+                    "Rosalin",
+                    "Abbie",
+                    "Ellen"
+                ],
+                "Number": 6,
+                "Pint": "Guinness",
+                "cumulative_number": 147.5
+            },
+            "45": {
+                "_datetime_date_": "2025-03-05",
+                "company": [
+                    "Rosalin",
+                    "Abeer",
+                    "Greg",
+                    "Ellen"
+                ],
+                "Number": 1,
+                "Pint": "Python",
+                "cumulative_number": 148.5
+            },
+            "46": {
+                "_datetime_date_": "2025-03-06",
+                "company": [
+                    "Mon",
+                    "Charlie"
+                ],
+                "Number": 1,
+                "Pint": "Guinness",
+                "cumulative_number": 149.5
+            },
+            "47": {
+                "_datetime_date_": "2025-03-06",
+                "company": [
+                    "Rosalin"
+                ],
+                "Number": 1,
+                "Pint": "Mango IPA",
+                "cumulative_number": 150.5
+            },
+            "48": {
+                "_datetime_date_": "2025-03-07",
+                "company": [
+                    "Jo H",
+                    "Hannah S",
+                    "Alex",
+                    "Becky",
+                    "Jamie",
+                    "Izzy",
+                    "Dan R"
+                ],
+                "Number": 7,
+                "Pint": "Guinness",
+                "cumulative_number": 157.5
+            },
+            "49": {
+                "_datetime_date_": "2025-03-07",
+                "company": [
+                    "Finn",
+                    "Anna"
+                ],
+                "Number": 2,
+                "Pint": "London Black",
+                "cumulative_number": 159.5
+            },
+            "50": {
+                "_datetime_date_": "2025-03-08",
+                "company": [
+                    "Emmeline",
+                    "Martha",
+                    "Laura",
+                    "Ania",
+                    "Rufus",
+                    "Alex F",
+                    "James"
+                ],
+                "Number": 4,
+                "Pint": "Guinness",
+                "cumulative_number": 163.5
+            },
+            "51": {
+                "_datetime_date_": "2025-03-08",
+                "company": [
+                    "Mike",
+                    "Pablo",
+                    "Ash"
+                ],
+                "Number": 6,
+                "Pint": "Guinness",
+                "cumulative_number": 169.5
+            },
+            "52": {
+                "_datetime_date_": "2025-03-08",
+                "company": [
+                    "Pablo",
+                    "Ash"
+                ],
+                "Number": 1,
+                "Pint": "Guinness",
+                "cumulative_number": 170.5
+            },
+            "53": {
+                "_datetime_date_": "2025-03-11",
+                "company": [
+                    "Kit"
+                ],
+                "Number": 2,
+                "Pint": "Five Points XPA",
+                "cumulative_number": 172.5
+            },
+            "54": {
+                "_datetime_date_": "2025-03-11",
+                "company": [
+                    "Noah",
+                    "Stanley",
+                    "Zoe"
+                ],
+                "Number": 3,
+                "Pint": "Guinness",
+                "cumulative_number": 175.5
+            },
+            "55": {
+                "_datetime_date_": "2025-03-12",
+                "company": [
+                    "Róisín"
+                ],
+                "Number": 3,
+                "Pint": "Guinness",
+                "cumulative_number": 178.5
+            },
+            "56": {
+                "_datetime_date_": "2025-03-13",
+                "company": [
+                    "Martha"
+                ],
+                "Number": 2,
+                "Pint": "Guinness",
+                "cumulative_number": 180.5
+            },
+            "57": {
+                "_datetime_date_": "2025-03-14",
+                "company": [
+                    "Martha",
+                    "Noah"
+                ],
+                "Number": 5,
+                "Pint": "Brand Wiezen",
+                "cumulative_number": 185.5
+            },
+            "58": {
+                "_datetime_date_": "2025-03-15",
+                "company": [
+                    "Martha",
+                    "Noah"
+                ],
+                "Number": 2,
+                "Pint": "Heineken",
+                "cumulative_number": 187.5
+            },
+            "59": {
+                "_datetime_date_": "2025-03-16",
+                "company": [
+                    "Martha",
+                    "Noah"
+                ],
+                "Number": 5,
+                "Pint": "Canary",
+                "cumulative_number": 192.5
+            },
+            "60": {
+                "_datetime_date_": "2025-03-18",
+                "company": [
+                    "Sam",
+                    "Mark"
+                ],
+                "Number": 4,
+                "Pint": "Orbit Pale Ale",
+                "cumulative_number": 196.5
+            },
+            "61": {
+                "_datetime_date_": "2025-03-21",
+                "company": [
+                    "Tor",
+                    "Els",
+                    "Monty",
+                    "Miranda",
+                    "Laurie"
+                ],
+                "Number": 6,
+                "Pint": "Guinness",
+                "cumulative_number": 202.5
+            },
+            "62": {
+                "_datetime_date_": "2025-03-26",
+                "company": [
+                    "Lynn",
+                    "Rick"
+                ],
+                "Number": 1,
+                "Pint": "Stonewall IPA",
+                "cumulative_number": 203.5
+            },
+            "63": {
+                "_datetime_date_": "2025-03-28",
+                "company": [
+                    "Lynn",
+                    "Rick"
+                ],
+                "Number": 1,
+                "Pint": "Madri",
+                "cumulative_number": 204.5
+            },
+            "64": {
+                "_datetime_date_": "2025-03-29",
+                "company": [
+                    "Lynn",
+                    "Rick"
+                ],
+                "Number": 4,
+                "Pint": "Guinness",
+                "cumulative_number": 208.5
+            },
+            "65": {
+                "_datetime_date_": "2025-03-31",
+                "company": [
+                    "Lucia",
+                    "Imi"
+                ],
+                "Number": 3,
+                "Pint": "Guinness",
+                "cumulative_number": 211.5
+            },
+            "66": {
+                "_datetime_date_": "2025-04-01",
+                "company": [
+                    "Róisín"
+                ],
+                "Number": 1,
+                "Pint": "Camden Pale",
+                "cumulative_number": 212.5
+            },
+            "67": {
+                "_datetime_date_": "2025-04-02",
+                "company": [
+                    "Ellie S"
+                ],
+                "Number": 2,
+                "Pint": "Guinness",
+                "cumulative_number": 214.5
+            },
+            "68": {
+                "_datetime_date_": "2025-04-04",
+                "company": [
+                    "Jez",
+                    "Sarah D"
+                ],
+                "Number": 2,
+                "Pint": "Guinness",
+                "cumulative_number": 216.5
+            },
+            "69": {
+                "_datetime_date_": "2025-04-04",
+                "company": [
+                    "Róisín"
+                ],
+                "Number": 1,
+                "Pint": "Guinness",
+                "cumulative_number": 217.5
+            },
+            "70": {
+                "_datetime_date_": "2025-04-04",
+                "company": [
+                    "Sarah D"
+                ],
+                "Number": 3,
+                "Pint": "Guinness",
+                "cumulative_number": 220.5
+            },
+            "71": {
+                "_datetime_date_": "2025-04-05",
+                "company": [
+                    "Hampus",
+                    "Dan R",
+                    "Alex",
+                    "Jamie S"
+                ],
+                "Number": 2,
+                "Pint": "Guinness",
+                "cumulative_number": 222.5
+            },
+            "72": {
+                "_datetime_date_": "2025-04-05",
+                "company": [
+                    "Noah",
+                    "Stanley",
+                    "Zoe"
+                ],
+                "Number": 2,
+                "Pint": "Cruzcampo",
+                "cumulative_number": 224.5
+            },
+            "73": {
+                "_datetime_date_": "2025-04-08",
+                "company": [
+                    "Kit"
+                ],
+                "Number": 2,
+                "Pint": "Guinness",
+                "cumulative_number": 226.5
+            },
+            "74": {
+                "_datetime_date_": "2025-04-08",
+                "company": [
+                    "Martha"
+                ],
+                "Number": 2,
+                "Pint": "Guinness",
+                "cumulative_number": 228.5
+            },
+            "75": {
+                "_datetime_date_": "2025-04-09",
+                "company": [
+                    "Avani",
+                    "Pete",
+                    "Paolo",
+                    "Georgia B",
+                    "Nikhita"
+                ],
+                "Number": 7,
+                "Pint": "Guinness",
+                "cumulative_number": 235.5
+            },
+            "76": {
+                "_datetime_date_": "2025-04-09",
+                "company": [
+                    "Pete",
+                    "Nikhita"
+                ],
+                "Number": 1,
+                "Pint": "Guinness",
+                "cumulative_number": 236.5
+            },
+            "77": {
+                "_datetime_date_": "2025-04-11",
+                "company": [
+                    "Sachin",
+                    "Conor",
+                    "Dan P"
+                ],
+                "Number": 4,
+                "Pint": "Guinness",
+                "cumulative_number": 240.5
+            },
+            "78": {
+                "_datetime_date_": "2025-04-13",
+                "company": [
+                    "Róisín"
+                ],
+                "Number": 1,
+                "Pint": "Guinness",
+                "cumulative_number": 241.5
+            },
+            "79": {
+                "_datetime_date_": "2025-04-15",
+                "company": [
+                    "",
+                    "Robbie M",
+                    "Ruby",
+                    "Bailey",
+                    "Tan",
+                    "Kit",
+                    "James Hough",
+                    "Ellen",
+                    "Sarah"
+                ],
+                "Number": 3,
+                "Pint": "Guinness",
+                "cumulative_number": 244.5
+            },
+            "80": {
+                "_datetime_date_": "2025-04-15",
+                "company": [
+                    "Robbie M",
+                    "Ruby",
+                    "Bailey",
+                    "Tan",
+                    "Kit",
+                    "James Hough",
+                    "Ellen",
+                    "Sarah"
+                ],
+                "Number": 3,
+                "Pint": "Guinness",
+                "cumulative_number": 247.5
+            },
+            "81": {
+                "_datetime_date_": "2025-04-17",
+                "company": [
+                    "Róisín"
+                ],
+                "Number": 3,
+                "Pint": "Guinness",
+                "cumulative_number": 250.5
+            },
+            "82": {
+                "_datetime_date_": "2025-04-18",
+                "company": [
+                    "Finn",
+                    "Timo",
+                    "Anna"
+                ],
+                "Number": 4,
+                "Pint": "Guinness",
+                "cumulative_number": 254.5
+            },
+            "83": {
+                "_datetime_date_": "2025-04-18",
+                "company": [
+                    "Roz",
+                    "Laurie",
+                    "Mash"
+                ],
+                "Number": 4,
+                "Pint": "Guinness",
+                "cumulative_number": 258.5
+            },
+            "84": {
+                "_datetime_date_": "2025-04-19",
+                "company": [
+                    "Nina",
+                    "Jamie S",
+                    "Jo H",
+                    "Hannah S",
+                    "Alex",
+                    "Izzy",
+                    "Georgia B",
+                    "Dan R"
+                ],
+                "Number": 2.5,
+                "Pint": "Guinness",
+                "cumulative_number": 261
+            },
+            "85": {
+                "_datetime_date_": "2025-04-20",
+                "company": [
+                    "Laurie"
+                ],
+                "Number": 2,
+                "Pint": "Guinness",
+                "cumulative_number": 263
+            },
+            "86": {
+                "_datetime_date_": "2025-04-23",
+                "company": [
+                    "Noah",
+                    "Stanley"
+                ],
+                "Number": 3,
+                "Pint": "Guinness",
+                "cumulative_number": 266
+            },
+            "87": {
+                "_datetime_date_": "2025-04-24",
+                "company": [
+                    "Finn",
+                    "Anna",
+                    "Róisín"
+                ],
+                "Number": 4,
+                "Pint": "St Clements",
+                "cumulative_number": 270
+            },
+            "88": {
+                "_datetime_date_": "2025-04-25",
+                "company": [
+                    "Martha",
+                    "Laurie",
+                    "Jade",
+                    "Stanley"
+                ],
+                "Number": 5,
+                "Pint": "Halo",
+                "cumulative_number": 275
+            },
+            "89": {
+                "_datetime_date_": "2025-04-26",
+                "company": [
+                    "Sam G",
+                    "Anna",
+                    "Nicola",
+                    "Jono",
+                    "Georgina K",
+                    "Róisín",
+                    "Anastasiya",
+                    "Alex C",
+                    "Timo"
+                ],
+                "Number": 4,
+                "Pint": "Murphys",
+                "cumulative_number": 279
+            },
+            "90": {
+                "_datetime_date_": "2025-04-26",
+                "company": [
+                    "Sam G",
+                    "Anna",
+                    "Nicola",
+                    "Jono",
+                    "Róisín",
+                    "Anastasiya",
+                    "Timo"
+                ],
+                "Number": 2,
+                "Pint": "Guinness",
+                "cumulative_number": 281
+            },
+            "91": {
+                "_datetime_date_": "2025-04-26",
+                "company": [
+                    "Georgia B",
+                    "Róisín"
+                ],
+                "Number": 3,
+                "Pint": "Guinness",
+                "cumulative_number": 284
+            },
+            "92": {
+                "_datetime_date_": "2025-05-01",
+                "company": [
+                    "Hayden",
+                    "Matt O",
+                    "Sam"
+                ],
+                "Number": 3,
+                "Pint": "Guinness",
+                "cumulative_number": 287
+            },
+            "93": {
+                "_datetime_date_": "2025-05-02",
+                "company": [
+                    "Sam G",
+                    "Jack",
+                    "Matt M",
+                    "Hayden",
+                    "James R",
+                    "Tim",
+                    "Sam",
+                    "Dave M",
+                    "Jonny",
+                    "Matt O",
+                    "Charlie M"
+                ],
+                "Number": 4,
+                "Pint": "Alfa",
+                "cumulative_number": 291
+            },
+            "94": {
+                "_datetime_date_": "2025-05-02",
+                "company": [
+                    "Matt M",
+                    "Hayden",
+                    "James R",
+                    "Tim",
+                    "Sam",
+                    "Dave M",
+                    "Jonny",
+                    "Matt O",
+                    "Charlie M"
+                ],
+                "Number": 2,
+                "Pint": "Guinness",
+                "cumulative_number": 293
+            },
+            "95": {
+                "_datetime_date_": "2025-05-03",
+                "company": [
+                    "Sam G",
+                    "Jack",
+                    "Matt M",
+                    "Hayden",
+                    "James R",
+                    "Tim",
+                    "Sam",
+                    "Dave M",
+                    "Jonny",
+                    "Matt O",
+                    "Charlie M"
+                ],
+                "Number": 1,
+                "Pint": "Mythos",
+                "cumulative_number": 294
+            },
+            "96": {
+                "_datetime_date_": "2025-05-04",
+                "company": [
+                    "Sam G",
+                    "Jack",
+                    "Matt M",
+                    "Hayden",
+                    "James R",
+                    "Tim",
+                    "Sam",
+                    "Dave M",
+                    "Jonny",
+                    "Matt O",
+                    "Charlie M"
+                ],
+                "Number": 3,
+                "Pint": "Mythos",
+                "cumulative_number": 297
+            },
+            "97": {
+                "_datetime_date_": "2025-05-07",
+                "company": [
+                    "Laurie",
+                    "Jess",
+                    "Tor"
+                ],
+                "Number": 4,
+                "Pint": "Guinness",
+                "cumulative_number": 301
+            },
+            "98": {
+                "_datetime_date_": "2025-05-09",
+                "company": [
+                    "Hannah S",
+                    "Dan R",
+                    "Alex",
+                    "Saz"
+                ],
+                "Number": 5,
+                "Pint": "Renaissance ",
+                "cumulative_number": 306
+            },
+            "99": {
+                "_datetime_date_": "2025-05-10",
+                "company": [
+                    "Mike",
+                    "Pablo",
+                    "Ash"
+                ],
+                "Number": 9,
+                "Pint": "Guinness",
+                "cumulative_number": 315
+            },
+            "100": {
+                "_datetime_date_": "2025-05-10",
+                "company": [
+                    "Dan P",
+                    "Liam"
+                ],
+                "Number": 1,
+                "Pint": "Murphy's",
+                "cumulative_number": 316
+            },
+            "101": {
+                "_datetime_date_": "2025-05-15",
+                "company": [
+                    "Tor",
+                    "Laurie",
+                    "Els"
+                ],
+                "Number": 3,
+                "Pint": "Guinness",
+                "cumulative_number": 319
+            },
+            "102": {
+                "_datetime_date_": "2025-05-16",
+                "company": [
+                    "Mike",
+                    "Pablo",
+                    "Ash"
+                ],
+                "Number": 6,
+                "Pint": "Lager",
+                "cumulative_number": 325
+            },
+            "103": {
+                "_datetime_date_": "2025-05-16",
+                "company": [
+                    "Noah"
+                ],
+                "Number": 3,
+                "Pint": "Camden Pale",
+                "cumulative_number": 328
+            },
+            "104": {
+                "_datetime_date_": "2025-05-18",
+                "company": [
+                    "Finn",
+                    "Lynn",
+                    "Rick",
+                    "Anna",
+                    "Claud",
+                    "Sachin",
+                    "Tor",
+                    "Guy",
+                    "Jo H",
+                    "Dan P",
+                    "Alex",
+                    "Tom M",
+                    "Róisín",
+                    "Izzy",
+                    "Laurie",
+                    "Dan R"
+                ],
+                "Number": 1,
+                "Pint": "Guinness",
+                "cumulative_number": 329
+            },
+            "105": {
+                "_datetime_date_": "2025-05-19",
+                "company": [
+                    "Kit",
+                    "Georgie",
+                    "Charlotte B",
+                    "Rosalin"
+                ],
+                "Number": 3,
+                "Pint": "Guinness",
+                "cumulative_number": 332
+            },
+            "106": {
+                "_datetime_date_": "2025-05-22",
+                "company": [
+                    "Robbie M",
+                    "Ruby",
+                    "Tan",
+                    "Kit",
+                    "Ellen",
+                    "Charlotte M",
+                    "Georgie",
+                    "Beth"
+                ],
+                "Number": 2,
+                "Pint": "Guinness",
+                "cumulative_number": 334
+            },
+            "107": {
+                "_datetime_date_": "2025-05-22",
+                "company": [
+                    "Robbie M",
+                    "Ruby",
+                    "Tan",
+                    "Ellen",
+                    "Charlotte M",
+                    "Georgie",
+                    "Beth"
+                ],
+                "Number": 1,
+                "Pint": "Guinness",
+                "cumulative_number": 335
+            },
+            "108": {
+                "_datetime_date_": "2025-05-22",
+                "company": [
+                    "Dan P"
+                ],
+                "Number": 3,
+                "Pint": "Guinness",
+                "cumulative_number": 338
+            },
+            "109": {
+                "_datetime_date_": "2025-05-23",
+                "company": [
+                    "Finn",
+                    "Tor",
+                    "Anna",
+                    "Els",
+                    "Laurie"
+                ],
+                "Number": 3,
+                "Pint": "Guinness",
+                "cumulative_number": 341
+            },
+            "110": {
+                "_datetime_date_": "2025-05-24",
+                "company": [
+                    "Alex K",
+                    "Jeremy",
+                    "Tom M",
+                    "Tom H",
+                    "Dylan",
+                    "Sarah D",
+                    "Holly J"
+                ],
+                "Number": 7,
+                "Pint": "Brightside",
+                "cumulative_number": 348
+            },
+            "111": {
+                "_datetime_date_": "2025-05-24",
+                "company": [
+                    "Ellie S"
+                ],
+                "Number": 2,
+                "Pint": "Guinness",
+                "cumulative_number": 350
+            },
+            "112": {
+                "_datetime_date_": "2025-05-25",
+                "company": [
+                    "Juhi",
+                    "Izzy",
+                    "Dan R",
+                    "Hannah S"
+                ],
+                "Number": 2,
+                "Pint": "Guinness",
+                "cumulative_number": 352
+            },
+            "113": {
+                "_datetime_date_": "2025-05-26",
+                "company": [
+                    "Róisín"
+                ],
+                "Number": 2.5,
+                "Pint": "Guinness",
+                "cumulative_number": 354.5
+            },
+            "114": {
+                "_datetime_date_": "2025-05-27",
+                "company": [
+                    "Solo"
+                ],
+                "Number": 5,
+                "Pint": "Birra Moretti",
+                "cumulative_number": 359.5
+            },
+            "115": {
+                "_datetime_date_": "2025-05-30",
+                "company": [
+                    "Rick",
+                    "Hayden",
+                    "James R",
+                    "Tim",
+                    "Sam",
+                    "Charlie N",
+                    "Conor F",
+                    "Rocky"
+                ],
+                "Number": 1,
+                "Pint": "Menabrea",
+                "cumulative_number": 360.5
+            },
+            "116": {
+                "_datetime_date_": "2025-06-02",
+                "company": [
+                    "Lynn",
+                    "Rick"
+                ],
+                "Number": 2,
+                "Pint": "Birra Messina",
+                "cumulative_number": 362.5
+            },
+            "117": {
+                "_datetime_date_": "2025-06-03",
+                "company": [
+                    "Lynn",
+                    "Rick",
+                    "Charlotte",
+                    "Sam",
+                    "James",
+                    "Ellie C",
+                    "Conor F"
+                ],
+                "Number": 4,
+                "Pint": "Birra Moretti",
+                "cumulative_number": 366.5
+            },
+            "118": {
+                "_datetime_date_": "2025-06-04",
+                "company": [
+                    "Able",
+                    "Rick",
+                    "Charlotte",
+                    "Sam",
+                    "James",
+                    "Ellie C",
+                    "Bella",
+                    "Conor F"
+                ],
+                "Number": 3,
+                "Pint": "Guinness",
+                "cumulative_number": 369.5
+            },
+            "119": {
+                "_datetime_date_": "2025-06-04",
+                "company": [
+                    "Rachel F",
+                    "Charlotte",
+                    "Max F",
+                    "Sam",
+                    "James",
+                    "Ellie C",
+                    "Conor F"
+                ],
+                "Number": 1,
+                "Pint": "Birra Moretti",
+                "cumulative_number": 370.5
+            },
+            "120": {
+                "_datetime_date_": "2025-06-04",
+                "company": [
+                    "Charlotte",
+                    "Sam",
+                    "James",
+                    "Ellie C",
+                    "Conor F"
+                ],
+                "Number": 3,
+                "Pint": "Birra Moretti",
+                "cumulative_number": 373.5
+            },
+            "121": {
+                "_datetime_date_": "2025-06-05",
+                "company": [
+                    "Lynn",
+                    "Rick"
+                ],
+                "Number": 1,
+                "Pint": "Birra Moretti",
+                "cumulative_number": 374.5
+            },
+            "122": {
+                "_datetime_date_": "2025-06-06",
+                "company": [
+                    "Lynn",
+                    "Rick"
+                ],
+                "Number": 1,
+                "Pint": "Birra Moretti",
+                "cumulative_number": 375.5
+            },
+            "123": {
+                "_datetime_date_": "2025-06-10",
+                "company": [
+                    "Róisín"
+                ],
+                "Number": 4,
+                "Pint": "Guinness",
+                "cumulative_number": 379.5
+            },
+            "124": {
+                "_datetime_date_": "2025-06-11",
+                "company": [
+                    "Georgia B",
+                    "Annie M",
+                    "Pete",
+                    "Nikhita"
+                ],
+                "Number": 6,
+                "Pint": "Blue Moon",
+                "cumulative_number": 385.5
+            },
+            "125": {
+                "_datetime_date_": "2025-06-12",
+                "company": [
+                    "Lily",
+                    "Sachin",
+                    "Tom C",
+                    "Charlie S",
+                    "James N",
+                    "Lucy"
+                ],
+                "Number": 6,
+                "Pint": "Camden Hells",
+                "cumulative_number": 391.5
+            },
+            "126": {
+                "_datetime_date_": "2025-06-14",
+                "company": [
+                    "Laurie",
+                    "Iain"
+                ],
+                "Number": 1,
+                "Pint": "Guinness",
+                "cumulative_number": 392.5
+            },
+            "127": {
+                "_datetime_date_": "2025-06-14",
+                "company": [
+                    "Tor",
+                    "Iain",
+                    "Roz",
+                    "Laurie",
+                    "Mash"
+                ],
+                "Number": 7.5,
+                "Pint": "Guinness",
+                "cumulative_number": 400
+            },
+            "128": {
+                "_datetime_date_": "2025-06-18",
+                "company": [
+                    "Robbie M",
+                    "Ruby",
+                    "Abeer",
+                    "Tan",
+                    "Ellen"
+                ],
+                "Number": 4,
+                "Pint": "Guinness",
+                "cumulative_number": 404
+            },
+            "129": {
+                "_datetime_date_": "2025-06-19",
+                "company": [
+                    "Róisín"
+                ],
+                "Number": 2.5,
+                "Pint": "Camden Pale",
+                "cumulative_number": 406.5
+            },
+            "130": {
+                "_datetime_date_": "2025-06-21",
+                "company": [
+                    "Thiri",
+                    "Oli",
+                    "Vicky"
+                ],
+                "Number": 4,
+                "Pint": "Estrella",
+                "cumulative_number": 410.5
+            },
+            "131": {
+                "_datetime_date_": "2025-06-25",
+                "company": [
+                    "Ellie C",
+                    "Rick",
+                    "Lynn",
+                    "Sam"
+                ],
+                "Number": 2,
+                "Pint": "Six Wives",
+                "cumulative_number": 412.5
+            },
+            "132": {
+                "_datetime_date_": "2025-06-25",
+                "company": [
+                    "Ellie C",
+                    "Sam"
+                ],
+                "Number": 1,
+                "Pint": "Asahi",
+                "cumulative_number": 413.5
+            },
+            "133": {
+                "_datetime_date_": "2025-06-27",
+                "company": [
+                    "Nick T"
+                ],
+                "Number": 1,
+                "Pint": "Soundwave",
+                "cumulative_number": 414.5
+            },
+            "134": {
+                "_datetime_date_": "2025-06-28",
+                "company": [
+                    "Georgia B",
+                    "Emma H"
+                ],
+                "Number": 7,
+                "Pint": "Cruzcampo",
+                "cumulative_number": 421.5
+            },
+            "135": {
+                "_datetime_date_": "2025-07-01",
+                "company": [
+                    "Róisín"
+                ],
+                "Number": 2,
+                "Pint": "Birra Moretti",
+                "cumulative_number": 423.5
+            },
+            "136": {
+                "_datetime_date_": "2025-07-02",
+                "company": [
+                    "Jo H",
+                    "Hannah S",
+                    "Alex",
+                    "Georgia B",
+                    "Dan R"
+                ],
+                "Number": 7,
+                "Pint": "Pale Ale",
+                "cumulative_number": 430.5
+            },
+            "137": {
+                "_datetime_date_": "2025-07-03",
+                "company": [
+                    "Noah",
+                    "Stanley",
+                    "Ellie A"
+                ],
+                "Number": 1,
+                "Pint": "Guinness",
+                "cumulative_number": 431.5
+            },
+            "138": {
+                "_datetime_date_": "2025-07-03",
+                "company": [
+                    "Noah",
+                    "Stanley"
+                ],
+                "Number": 2.5,
+                "Pint": "Guinness",
+                "cumulative_number": 434
+            },
+            "139": {
+                "_datetime_date_": "2025-07-04",
+                "company": [
+                    "Sachin",
+                    "Laurie"
+                ],
+                "Number": 9,
+                "Pint": "San Seb Beer",
+                "cumulative_number": 443
+            },
+            "140": {
+                "_datetime_date_": "2025-07-05",
+                "company": [
+                    "Sachin",
+                    "Laurie"
+                ],
+                "Number": 1.5,
+                "Pint": "San Seb Beer",
+                "cumulative_number": 444.5
+            },
+            "141": {
+                "_datetime_date_": "2025-07-06",
+                "company": [
+                    "Sachin",
+                    "Laurie"
+                ],
+                "Number": 3,
+                "Pint": "San Seb Beer",
+                "cumulative_number": 447.5
+            },
+            "142": {
+                "_datetime_date_": "2025-07-08",
+                "company": [
+                    "Robbie M",
+                    "Ruby",
+                    "Tan",
+                    "Jessica C",
+                    "Kit",
+                    "Ellen",
+                    "Rosalin",
+                    "Diogo",
+                    "Jon S"
+                ],
+                "Number": 2,
+                "Pint": "Wanna go to the sun pale ale",
+                "cumulative_number": 449.5
+            },
+            "143": {
+                "_datetime_date_": "2025-07-08",
+                "company": [
+                    "Robbie M",
+                    "Ruby",
+                    "Tan",
+                    "Jessica C",
+                    "Kit",
+                    "Ellen",
+                    "Rosalin",
+                    "Jon S"
+                ],
+                "Number": 3,
+                "Pint": "Facile",
+                "cumulative_number": 452.5
+            },
+            "144": {
+                "_datetime_date_": "2025-07-08",
+                "company": [
+                    "Robbie M",
+                    "Ruby",
+                    "Tan",
+                    "Jessica C",
+                    "Rosalin",
+                    "Ellen"
+                ],
+                "Number": 1,
+                "Pint": "Guinness ",
+                "cumulative_number": 453.5
+            },
+            "145": {
+                "_datetime_date_": "2025-07-09",
+                "company": [
+                    "Martha",
+                    "Róisín"
+                ],
+                "Number": 4,
+                "Pint": "Guinness",
+                "cumulative_number": 457.5
+            },
+            "146": {
+                "_datetime_date_": "2025-07-10",
+                "company": [
+                    "Anna"
+                ],
+                "Number": 3,
+                "Pint": "Camden Hells",
+                "cumulative_number": 460.5
+            },
+            "147": {
+                "_datetime_date_": "2025-07-11",
+                "company": [
+                    "Alex S",
+                    "Faye"
+                ],
+                "Number": 2,
+                "Pint": "Skoosh",
+                "cumulative_number": 462.5
+            },
+            "148": {
+                "_datetime_date_": "2025-07-11",
+                "company": [
+                    "Alex S",
+                    "Martha",
+                    "Faye"
+                ],
+                "Number": 1,
+                "Pint": "Guinness",
+                "cumulative_number": 463.5
+            },
+            "149": {
+                "_datetime_date_": "2025-07-11",
+                "company": [
+                    "Laurie",
+                    "Lewis K"
+                ],
+                "Number": 4,
+                "Pint": "Guinness",
+                "cumulative_number": 467.5
+            },
+            "150": {
+                "_datetime_date_": "2025-07-11",
+                "company": [
+                    "Lewis K"
+                ],
+                "Number": 2,
+                "Pint": "Guinness",
+                "cumulative_number": 469.5
+            },
+            "151": {
+                "_datetime_date_": "2025-07-12",
+                "company": [
+                    "Jess C"
+                ],
+                "Number": 4,
+                "Pint": "Camden Hells",
+                "cumulative_number": 473.5
+            },
+            "152": {
+                "_datetime_date_": "2025-07-12",
+                "company": [
+                    "Robbie M",
+                    "Kit",
+                    "Tan"
+                ],
+                "Number": 3,
+                "Pint": "Guinness",
+                "cumulative_number": 476.5
+            },
+            "153": {
+                "_datetime_date_": "2025-07-12",
+                "company": [
+                    "Martha",
+                    "Laurie",
+                    "Róisín"
+                ],
+                "Number": 2,
+                "Pint": "Pravha",
+                "cumulative_number": 478.5
+            },
+            "154": {
+                "_datetime_date_": "2025-07-16",
+                "company": [
+                    "Akshay",
+                    "Rick",
+                    "Sachin"
+                ],
+                "Number": 5,
+                "Pint": "Punk IPA",
+                "cumulative_number": 483.5
+            },
+            "155": {
+                "_datetime_date_": "2025-07-17",
+                "company": [
+                    "Dan V",
+                    "Guy",
+                    "Dom",
+                    "Tom H"
+                ],
+                "Number": 4,
+                "Pint": "Guinness",
+                "cumulative_number": 487.5
+            },
+            "156": {
+                "_datetime_date_": "2025-07-17",
+                "company": [
+                    "Kit"
+                ],
+                "Number": 4,
+                "Pint": "Guinness",
+                "cumulative_number": 491.5
+            },
+            "157": {
+                "_datetime_date_": "2025-07-18",
+                "company": [
+                    "Martha",
+                    "Faye",
+                    "Alex"
+                ],
+                "Number": 4,
+                "Pint": "Metro",
+                "cumulative_number": 495.5
+            },
+            "158": {
+                "_datetime_date_": "2025-07-18",
+                "company": [
+                    "Ciara",
+                    "Róisín",
+                    "Jim O"
+                ],
+                "Number": 3,
+                "Pint": "Guinness",
+                "cumulative_number": 498.5
+            },
+            "159": {
+                "_datetime_date_": "2025-07-19",
+                "company": [
+                    "Ruby",
+                    "Jonny",
+                    "Beth"
+                ],
+                "Number": 3,
+                "Pint": "Guinness",
+                "cumulative_number": 501.5
+            },
+            "160": {
+                "_datetime_date_": "2025-07-19",
+                "company": [
+                    "Martha"
+                ],
+                "Number": 3.5,
+                "Pint": "Guinness",
+                "cumulative_number": 505
+            },
+            "161": {
+                "_datetime_date_": "2025-07-22",
+                "company": [
+                    "Thiri"
+                ],
+                "Number": 5,
+                "Pint": "Guinness",
+                "cumulative_number": 510
+            },
+            "162": {
+                "_datetime_date_": "2025-07-24",
+                "company": [
+                    "Nina",
+                    "Jamie S",
+                    "Jo H",
+                    "Jim",
+                    "Hannah S",
+                    "Alex",
+                    "Ollie",
+                    "Chynna",
+                    "Georgia B"
+                ],
+                "Number": 4,
+                "Pint": "Atlantic Pale Ale",
+                "cumulative_number": 514
+            },
+            "163": {
+                "_datetime_date_": "2025-07-24",
+                "company": [
+                    "Ollie",
+                    "Alex"
+                ],
+                "Number": 2,
+                "Pint": "Guinness",
+                "cumulative_number": 516
+            },
+            "164": {
+                "_datetime_date_": "2025-07-24",
+                "company": [
+                    "Jim",
+                    "Nina"
+                ],
+                "Number": 1,
+                "Pint": "Guinness",
+                "cumulative_number": 517
+            },
+            "165": {
+                "_datetime_date_": "2025-07-25",
+                "company": [
+                    "Baz"
+                ],
+                "Number": 2,
+                "Pint": "Guinness",
+                "cumulative_number": 519
+            },
+            "166": {
+                "_datetime_date_": "2025-07-25",
+                "company": [
+                    "Conor",
+                    "Rohin",
+                    "Dan P"
+                ],
+                "Number": 2,
+                "Pint": "Guinness",
+                "cumulative_number": 521
+            },
+            "167": {
+                "_datetime_date_": "2025-07-25",
+                "company": [
+                    "Sachin",
+                    "Conor",
+                    "Rohin",
+                    "Dan P"
+                ],
+                "Number": 1,
+                "Pint": "Birra Morreti",
+                "cumulative_number": 522
+            },
+            "168": {
+                "_datetime_date_": "2025-07-25",
+                "company": [
+                    "Tor",
+                    "Laurie"
+                ],
+                "Number": 1,
+                "Pint": "Guinness",
+                "cumulative_number": 523
+            },
+            "169": {
+                "_datetime_date_": "2025-07-26",
+                "company": [
+                    "Róisín"
+                ],
+                "Number": 3,
+                "Pint": "Guinness",
+                "cumulative_number": 526
+            },
+            "170": {
+                "_datetime_date_": "2025-07-30",
+                "company": [
+                    "Henry"
+                ],
+                "Number": 1,
+                "Pint": "Guinness",
+                "cumulative_number": 527
+            },
+            "171": {
+                "_datetime_date_": "2025-07-30",
+                "company": [
+                    "Martha",
+                    "Henry"
+                ],
+                "Number": 1,
+                "Pint": "Guinness",
+                "cumulative_number": 528
+            },
+            "172": {
+                "_datetime_date_": "2025-07-30",
+                "company": [
+                    "Martha",
+                    "Sachin",
+                    "Róisín",
+                    "Henry"
+                ],
+                "Number": 2.5,
+                "Pint": "Amstel",
+                "cumulative_number": 530.5
+            },
+            "173": {
+                "_datetime_date_": "2025-07-30",
+                "company": [
+                    "Kit"
+                ],
+                "Number": 1.5,
+                "Pint": "Blackshore Stout",
+                "cumulative_number": 532
+            },
+            "174": {
+                "_datetime_date_": "2025-07-31",
+                "company": [
+                    "",
+                    "Jamie S",
+                    "Jim",
+                    "Hannah S",
+                    "Alex",
+                    "Charlie F",
+                    "James R",
+                    "Chynna",
+                    "Pete",
+                    "Georgia B",
+                    "Jo S",
+                    "Nikhita"
+                ],
+                "Number": 7,
+                "Pint": "Guinness",
+                "cumulative_number": 539
+            },
+            "175": {
+                "_datetime_date_": "2025-07-31",
+                "company": [
+                    "Ellie C",
+                    "Sam"
+                ],
+                "Number": 3,
+                "Pint": "Sovereign",
+                "cumulative_number": 542
+            },
+            "176": {
+                "_datetime_date_": "2025-08-01",
+                "company": [
+                    "Alex "
+                ],
+                "Number": 2,
+                "Pint": "Hazy",
+                "cumulative_number": 544
+            },
+            "177": {
+                "_datetime_date_": "2025-08-01",
+                "company": [
+                    "Sachin",
+                    "Jack",
+                    "Baz",
+                    "Els P",
+                    "Georgina K",
+                    "Ellie S",
+                    "Robbie B",
+                    "Alex C",
+                    "Timo"
+                ],
+                "Number": 3,
+                "Pint": "IPA",
+                "cumulative_number": 547
+            },
+            "178": {
+                "_datetime_date_": "2025-08-01",
+                "company": [
+                    "Jack",
+                    "Baz",
+                    "Els P",
+                    "Georgina K",
+                    "Ellie S",
+                    "Robbie B",
+                    "Alex C",
+                    "Timo"
+                ],
+                "Number": 2,
+                "Pint": "Camden Hells",
+                "cumulative_number": 549
+            },
+            "179": {
+                "_datetime_date_": "2025-08-05",
+                "company": [
+                    "Naomi",
+                    "Avani"
+                ],
+                "Number": 4,
+                "Pint": "Guinness",
+                "cumulative_number": 553
+            },
+            "180": {
+                "_datetime_date_": "2025-08-05",
+                "company": [
+                    "Charlotte",
+                    "Georgie",
+                    "Ruby",
+                    "Caroline"
+                ],
+                "Number": 1,
+                "Pint": "XPA",
+                "cumulative_number": 554
+            },
+            "181": {
+                "_datetime_date_": "2025-08-06",
+                "company": [
+                    "Alex"
+                ],
+                "Number": 2.5,
+                "Pint": "Murphy's",
+                "cumulative_number": 556.5
+            },
+            "182": {
+                "_datetime_date_": "2025-08-06",
+                "company": [
+                    "Saz",
+                    "Alex"
+                ],
+                "Number": 4,
+                "Pint": "Guinness",
+                "cumulative_number": 560.5
+            },
+            "183": {
+                "_datetime_date_": "2025-08-08",
+                "company": [
+                    "Lynn",
+                    "Róisín"
+                ],
+                "Number": 3,
+                "Pint": "Guinness",
+                "cumulative_number": 563.5
+            },
+            "184": {
+                "_datetime_date_": "2025-08-08",
+                "company": [
+                    "Róisín"
+                ],
+                "Number": 3,
+                "Pint": "Guinness",
+                "cumulative_number": 566.5
+            },
+            "185": {
+                "_datetime_date_": "2025-08-09",
+                "company": [
+                    "Martha",
+                    "Laurie",
+                    "Anna"
+                ],
+                "Number": 4,
+                "Pint": "Guinness",
+                "cumulative_number": 570.5
+            },
+            "186": {
+                "_datetime_date_": "2025-08-09",
+                "company": [
+                    "Martha",
+                    "Anna"
+                ],
+                "Number": 1,
+                "Pint": "Guinness",
+                "cumulative_number": 571.5
+            },
+            "187": {
+                "_datetime_date_": "2025-08-09",
+                "company": [
+                    "Martha"
+                ],
+                "Number": 2,
+                "Pint": "Guinness",
+                "cumulative_number": 573.5
+            },
+            "188": {
+                "_datetime_date_": "2025-08-11",
+                "company": [
+                    "Finn",
+                    "Ellie A"
+                ],
+                "Number": 2,
+                "Pint": "Guinness",
+                "cumulative_number": 575.5
+            },
+            "189": {
+                "_datetime_date_": "2025-08-11",
+                "company": [
+                    "Finn"
+                ],
+                "Number": 1,
+                "Pint": "Guinness",
+                "cumulative_number": 576.5
+            },
+            "190": {
+                "_datetime_date_": "2025-08-13",
+                "company": [
+                    "Martha",
+                    "Rohan",
+                    "Jade",
+                    "Bella"
+                ],
+                "Number": 4,
+                "Pint": "Coors",
+                "cumulative_number": 580.5
+            },
+            "191": {
+                "_datetime_date_": "2025-08-13",
+                "company": [
+                    "Emmeline",
+                    "Martha G",
+                    "Martha",
+                    "Noah"
+                ],
+                "Number": 1,
+                "Pint": "Guinness",
+                "cumulative_number": 581.5
+            },
+            "192": {
+                "_datetime_date_": "2025-08-13",
+                "company": [
+                    "Martha",
+                    "Jade"
+                ],
+                "Number": 2,
+                "Pint": "Guinness",
+                "cumulative_number": 583.5
+            },
+            "193": {
+                "_datetime_date_": "2025-08-13",
+                "company": [
+                    "Martha"
+                ],
+                "Number": 2,
+                "Pint": "Blue Moon",
+                "cumulative_number": 585.5
+            },
+            "194": {
+                "_datetime_date_": "2025-08-13",
+                "company": [
+                    "Martha",
+                    "Martha G",
+                    "Noah",
+                    "Sasha"
+                ],
+                "Number": 1,
+                "Pint": "Madri",
+                "cumulative_number": 586.5
+            },
+            "195": {
+                "_datetime_date_": "2025-08-14",
+                "company": [
+                    "Martha",
+                    "Alex F",
+                    "Martha G",
+                    "Noah"
+                ],
+                "Number": 4,
+                "Pint": "Blue Moon",
+                "cumulative_number": 590.5
+            },
+            "196": {
+                "_datetime_date_": "2025-08-14",
+                "company": [
+                    "Martha"
+                ],
+                "Number": 4,
+                "Pint": "Guinness",
+                "cumulative_number": 594.5
+            },
+            "197": {
+                "_datetime_date_": "2025-08-14",
+                "company": [
+                    "Martha",
+                    "Will",
+                    "Noah"
+                ],
+                "Number": 2,
+                "Pint": "Guinness",
+                "cumulative_number": 596.5
+            },
+            "198": {
+                "_datetime_date_": "2025-08-15",
+                "company": [
+                    ""
+                ],
+                "Number": 1,
+                "Pint": "Guinness",
+                "cumulative_number": 597.5
+            },
+            "199": {
+                "_datetime_date_": "2025-08-15",
+                "company": [
+                    "Martha",
+                    "Jade"
+                ],
+                "Number": 2,
+                "Pint": "Guinness",
+                "cumulative_number": 599.5
+            },
+            "200": {
+                "_datetime_date_": "2025-08-15",
+                "company": [
+                    "Martha"
+                ],
+                "Number": 5,
+                "Pint": "Blue Moon",
+                "cumulative_number": 604.5
+            },
+            "201": {
+                "_datetime_date_": "2025-08-15",
+                "company": [
+                    "Martha",
+                    "Michelle"
+                ],
+                "Number": 3,
+                "Pint": "Coors",
+                "cumulative_number": 607.5
+            },
+            "202": {
+                "_datetime_date_": "2025-08-16",
+                "company": [
+                    "Alex S",
+                    "Faye",
+                    "Noah",
+                    "Timo",
+                    "Michelle"
+                ],
+                "Number": 3,
+                "Pint": "Coors",
+                "cumulative_number": 610.5
+            },
+            "203": {
+                "_datetime_date_": "2025-08-16",
+                "company": [
+                    "Martha",
+                    "Imogen",
+                    "WIll",
+                    "Noah",
+                    "Timo"
+                ],
+                "Number": 1,
+                "Pint": "Alpacalypse",
+                "cumulative_number": 611.5
+            },
+            "204": {
+                "_datetime_date_": "2025-08-16",
+                "company": [
+                    "Martha",
+                    "Timo",
+                    "Imogen"
+                ],
+                "Number": 4,
+                "Pint": "Coors",
+                "cumulative_number": 615.5
+            },
+            "205": {
+                "_datetime_date_": "2025-08-16",
+                "company": [
+                    "Noah",
+                    "Timo"
+                ],
+                "Number": 2,
+                "Pint": "Madri",
+                "cumulative_number": 617.5
+            },
+            "206": {
+                "_datetime_date_": "2025-08-16",
+                "company": [
+                    "Timo"
+                ],
+                "Number": 1,
+                "Pint": "Guinness",
+                "cumulative_number": 618.5
+            },
+            "207": {
+                "_datetime_date_": "2025-08-19",
+                "company": [
+                    "Miranda"
+                ],
+                "Number": 5,
+                "Pint": "Guinness",
+                "cumulative_number": 623.5
+            },
+            "208": {
+                "_datetime_date_": "2025-08-20",
+                "company": [
+                    "Laurie"
+                ],
+                "Number": 5,
+                "Pint": "Guinness",
+                "cumulative_number": 628.5
+            },
+            "209": {
+                "_datetime_date_": "2025-08-21",
+                "company": [
+                    "Sachin",
+                    "Laurie",
+                    "Ellie A",
+                    "Dan P"
+                ],
+                "Number": 4,
+                "Pint": "Guinness",
+                "cumulative_number": 632.5
+            },
+            "210": {
+                "_datetime_date_": "2025-08-21",
+                "company": [
+                    "Ellie A"
+                ],
+                "Number": 1,
+                "Pint": "Guinness",
+                "cumulative_number": 633.5
+            },
+            "211": {
+                "_datetime_date_": "2025-08-21",
+                "company": [
+                    "Laurie",
+                    "Ellie A"
+                ],
+                "Number": 1,
+                "Pint": "Guinness",
+                "cumulative_number": 634.5
+            },
+            "212": {
+                "_datetime_date_": "2025-08-22",
+                "company": [
+                    "Lynn"
+                ],
+                "Number": 1,
+                "Pint": "Guinness",
+                "cumulative_number": 635.5
+            },
+            "213": {
+                "_datetime_date_": "2025-08-23",
+                "company": [
+                    "Sam"
+                ],
+                "Number": 9,
+                "Pint": "Guinness",
+                "cumulative_number": 644.5
+            },
+            "214": {
+                "_datetime_date_": "2025-08-24",
+                "company": [
+                    "Tom C",
+                    "Dan P",
+                    "Lewis K"
+                ],
+                "Number": 7,
+                "Pint": "Guinness",
+                "cumulative_number": 651.5
+            },
+            "215": {
+                "_datetime_date_": "2025-08-26",
+                "company": [
+                    "Rosalin"
+                ],
+                "Number": 2,
+                "Pint": "Wanna go to the sun pale ale",
+                "cumulative_number": 653.5
+            },
+            "216": {
+                "_datetime_date_": "2025-08-28",
+                "company": [
+                    "Georgina K",
+                    "Joe S"
+                ],
+                "Number": 4,
+                "Pint": "Guinness",
+                "cumulative_number": 657.5
+            },
+            "217": {
+                "_datetime_date_": "2025-08-29",
+                "company": [
+                    "Miranda"
+                ],
+                "Number": 5,
+                "Pint": "Camden Hells",
+                "cumulative_number": 662.5
+            },
+            "218": {
+                "_datetime_date_": "2025-08-30",
+                "company": [
+                    "Laurie",
+                    "Anna"
+                ],
+                "Number": 4,
+                "Pint": "Guinness ",
+                "cumulative_number": 666.5
+            },
+            "219": {
+                "_datetime_date_": "2025-09-01",
+                "company": [
+                    "Agnes"
+                ],
+                "Number": 1,
+                "Pint": "Bombay Bicycle IPA",
+                "cumulative_number": 667.5
+            },
+            "220": {
+                "_datetime_date_": "2025-09-01",
+                "company": [
+                    "Ellie C",
+                    "Sam"
+                ],
+                "Number": 1,
+                "Pint": "Guiness",
+                "cumulative_number": 668.5
+            },
+            "221": {
+                "_datetime_date_": "2025-09-03",
+                "company": [
+                    "Pete"
+                ],
+                "Number": 6,
+                "Pint": "Brixton Lager",
+                "cumulative_number": 674.5
+            },
+            "222": {
+                "_datetime_date_": "2025-09-04",
+                "company": [
+                    "Ruby",
+                    "Greg",
+                    "Hough",
+                    "Robbie",
+                    "Tan",
+                    "Kit",
+                    "Nathalie",
+                    "Ellen",
+                    "Rosalin",
+                    "Sean",
+                    "Georgie",
+                    "Caroline",
+                    "Beth",
+                    "Jon S"
+                ],
+                "Number": 1,
+                "Pint": "Guinness",
+                "cumulative_number": 675.5
+            },
+            "223": {
+                "_datetime_date_": "2025-09-04",
+                "company": [
+                    "Robbie M",
+                    "Ruby",
+                    "Greg",
+                    "Hough",
+                    "Tan",
+                    "Kit",
+                    "Ellen",
+                    "Rosalin",
+                    "Sean",
+                    "Georgie",
+                    "Caroline",
+                    "Beth",
+                    "Jon S"
+                ],
+                "Number": 2,
+                "Pint": "Guinness",
+                "cumulative_number": 677.5
+            },
+            "224": {
+                "_datetime_date_": "2025-09-04",
+                "company": [
+                    "Robbie M",
+                    "Ruby",
+                    "Greg",
+                    "Hough",
+                    "Tan",
+                    "Ellen",
+                    "Rosalin",
+                    "Georgie",
+                    "Caroline",
+                    "Beth",
+                    "Jon S"
+                ],
+                "Number": 1,
+                "Pint": "Guinness",
+                "cumulative_number": 678.5
+            },
+            "225": {
+                "_datetime_date_": "2025-09-04",
+                "company": [
+                    "Robbie M",
+                    "Ruby",
+                    "Greg",
+                    "Hough",
+                    "Tan",
+                    "Rosalin",
+                    "Georgie",
+                    "Caroline",
+                    "Beth",
+                    "Jon S"
+                ],
+                "Number": 2,
+                "Pint": "Guinness",
+                "cumulative_number": 680.5
+            },
+            "226": {
+                "_datetime_date_": "2025-09-04",
+                "company": [
+                    "Ruby",
+                    "Greg",
+                    "Charlotte",
+                    "Tan",
+                    "Nathalie",
+                    "Ellen",
+                    "Rosalin",
+                    "Beth"
+                ],
+                "Number": 1,
+                "Pint": "Guinness",
+                "cumulative_number": 681.5
+            },
+            "227": {
+                "_datetime_date_": "2025-09-04",
+                "company": [
+                    "Ruby",
+                    "Greg",
+                    "Tan",
+                    "Nathalie",
+                    "Rosalin",
+                    "Ellen",
+                    "Beth"
+                ],
+                "Number": 1,
+                "Pint": "Guinness",
+                "cumulative_number": 682.5
+            },
+            "228": {
+                "_datetime_date_": "2025-09-04",
+                "company": [
+                    "Noah"
+                ],
+                "Number": 1,
+                "Pint": "Guinness",
+                "cumulative_number": 683.5
+            },
+            "229": {
+                "_datetime_date_": "2025-09-04",
+                "company": [
+                    "Noah",
+                    "Stanley"
+                ],
+                "Number": 1,
+                "Pint": "Guinness",
+                "cumulative_number": 684.5
+            },
+            "230": {
+                "_datetime_date_": "2025-09-05",
+                "company": [
+                    "Tor",
+                    "Noah S",
+                    "Iain",
+                    "Theo",
+                    "Serena",
+                    "Roz",
+                    "Laurie",
+                    "Mash"
+                ],
+                "Number": 3,
+                "Pint": "Guinness",
+                "cumulative_number": 687.5
+            },
+            "231": {
+                "_datetime_date_": "2025-09-05",
+                "company": [
+                    "Noah",
+                    "Jess C"
+                ],
+                "Number": 3,
+                "Pint": "Guinness",
+                "cumulative_number": 690.5
+            },
+            "232": {
+                "_datetime_date_": "2025-09-05",
+                "company": [
+                    "Jo S"
+                ],
+                "Number": 3,
+                "Pint": "Asahi",
+                "cumulative_number": 693.5
+            },
+            "233": {
+                "_datetime_date_": "2025-09-07",
+                "company": [
+                    "Miranda"
+                ],
+                "Number": 2,
+                "Pint": "Erdinger",
+                "cumulative_number": 695.5
+            },
+            "234": {
+                "_datetime_date_": "2025-09-10",
+                "company": [
+                    "Martha",
+                    "Lynn",
+                    "Rick"
+                ],
+                "Number": 2,
+                "Pint": "Sovereign",
+                "cumulative_number": 697.5
+            },
+            "235": {
+                "_datetime_date_": "2025-09-10",
+                "company": [
+                    "Lynn",
+                    "Rick"
+                ],
+                "Number": 2,
+                "Pint": "Guinness",
+                "cumulative_number": 699.5
+            },
+            "236": {
+                "_datetime_date_": "2025-09-11",
+                "company": [
+                    "Jessica C",
+                    "Charlotte B"
+                ],
+                "Number": 2,
+                "Pint": "Wanna go to the sun pale ale",
+                "cumulative_number": 701.5
+            },
+            "237": {
+                "_datetime_date_": "2025-09-11",
+                "company": [
+                    "Tor",
+                    "Ellie A",
+                    "Dan P",
+                    "Laurie",
+                    "Conor M"
+                ],
+                "Number": 2,
+                "Pint": "Guinness",
+                "cumulative_number": 703.5
+            },
+            "238": {
+                "_datetime_date_": "2025-09-11",
+                "company": [
+                    "Tor",
+                    "Laurie",
+                    "Ellie A",
+                    "Conor M"
+                ],
+                "Number": 2,
+                "Pint": "Guinness",
+                "cumulative_number": 705.5
+            },
+            "239": {
+                "_datetime_date_": "2025-09-12",
+                "company": [
+                    "Jade"
+                ],
+                "Number": 5,
+                "Pint": "Guinness",
+                "cumulative_number": 710.5
+            },
+            "240": {
+                "_datetime_date_": "2025-09-12",
+                "company": [
+                    "Kathryn",
+                    "Juhi",
+                    "Nick P"
+                ],
+                "Number": 4,
+                "Pint": "Peroni",
+                "cumulative_number": 714.5
+            },
+            "241": {
+                "_datetime_date_": "2025-09-12",
+                "company": [
+                    "Stanley"
+                ],
+                "Number": 2,
+                "Pint": "Guinness",
+                "cumulative_number": 716.5
+            },
+            "242": {
+                "_datetime_date_": "2025-09-13",
+                "company": [
+                    "Timo",
+                    "Laurie",
+                    "Anna"
+                ],
+                "Number": 4.5,
+                "Pint": "Guinness",
+                "cumulative_number": 721
+            },
+            "243": {
+                "_datetime_date_": "2025-09-13",
+                "company": [
+                    "Martha"
+                ],
+                "Number": 4,
+                "Pint": "Guinness",
+                "cumulative_number": 725
+            },
+            "244": {
+                "_datetime_date_": "2025-09-19",
+                "company": [
+                    "Finn",
+                    "Anna"
+                ],
+                "Number": 3,
+                "Pint": "Skoosh",
+                "cumulative_number": 728
+            },
+            "245": {
+                "_datetime_date_": "2025-09-19",
+                "company": [
+                    "Finn"
+                ],
+                "Number": 2,
+                "Pint": "Skoosh",
+                "cumulative_number": 730
+            },
+            "246": {
+                "_datetime_date_": "2025-09-20",
+                "company": [
+                    "Rick"
+                ],
+                "Number": 4,
+                "Pint": "Atlantic Pale",
+                "cumulative_number": 734
+            },
+            "247": {
+                "_datetime_date_": "2025-09-23",
+                "company": [
+                    "Bella H"
+                ],
+                "Number": 5,
+                "Pint": "Guinness",
+                "cumulative_number": 739
+            }
+        },
+        "time_series_date_info": {
+            "2025-01-03": {
+                "Number": 4,
+                "cumulative_number": 4,
+                "company": [
+                    "Martha"
+                ]
+            },
+            "2025-01-04": {
+                "Number": 3,
+                "cumulative_number": 7,
+                "company": [
+                    "Jamie",
+                    "Nina",
+                    "Alex"
+                ]
+            },
+            "2025-01-08": {
+                "Number": 1,
+                "cumulative_number": 8,
+                "company": [
+                    "Lucia"
+                ]
+            },
+            "2025-01-09": {
+                "Number": 5,
+                "cumulative_number": 13,
+                "company": [
+                    "Becky"
+                ]
+            },
+            "2025-01-10": {
+                "Number": 3,
+                "cumulative_number": 16,
+                "company": [
+                    "Alina",
+                    "Georgia B",
+                    "Avani",
+                    "Alex",
+                    "Naomi",
+                    "Saskia",
+                    "Charlie G",
+                    "Nikhita",
+                    "Sam C",
+                    "Alex"
+                ]
+            },
+            "2025-01-15": {
+                "Number": 4,
+                "cumulative_number": 20,
+                "company": [
+                    "Finn",
+                    "Kit"
+                ]
+            },
+            "2025-01-16": {
+                "Number": 1,
+                "cumulative_number": 21,
+                "company": [
+                    "Finn"
+                ]
+            },
+            "2025-01-18": {
+                "Number": 8,
+                "cumulative_number": 29,
+                "company": [
+                    "Finn",
+                    "Anna",
+                    "Ella",
+                    "Nina",
+                    "Laurie",
+                    "Hannah S",
+                    "Alex",
+                    "Izzy",
+                    "Juhi",
+                    "Dan R",
+                    "Finn",
+                    "Anna",
+                    "Charlie",
+                    "Finn",
+                    "Laurie",
+                    "Anna"
+                ]
+            },
+            "2025-01-22": {
+                "Number": 2,
+                "cumulative_number": 31,
+                "company": [
+                    "Miranda"
+                ]
+            },
+            "2025-01-23": {
+                "Number": 9,
+                "cumulative_number": 40,
+                "company": [
+                    "Finn",
+                    "Shane",
+                    "Dan P",
+                    "Anna AD",
+                    "Tom",
+                    "Jess"
+                ]
+            },
+            "2025-01-24": {
+                "Number": 4,
+                "cumulative_number": 44,
+                "company": [
+                    "Finn"
+                ]
+            },
+            "2025-01-25": {
+                "Number": 13,
+                "cumulative_number": 57,
+                "company": [
+                    "Nina",
+                    "Jo H",
+                    "Alex",
+                    "Izzy",
+                    "Hannah",
+                    "Dan R",
+                    "Conor",
+                    "Paddy",
+                    "Dan P"
+                ]
+            },
+            "2025-01-27": {
+                "Number": 2,
+                "cumulative_number": 59,
+                "company": [
+                    "Kit",
+                    "Mark"
+                ]
+            },
+            "2025-01-28": {
+                "Number": 6,
+                "cumulative_number": 65,
+                "company": [
+                    "Robbie M",
+                    "Abeer",
+                    "Greg",
+                    "Ruby",
+                    "Sarah",
+                    "Bailey",
+                    "Jessica C",
+                    "Kit",
+                    "Ellen",
+                    "Jake",
+                    "Diogo",
+                    "Georgie",
+                    "Mark",
+                    "Beth",
+                    "Jon S"
+                ]
+            },
+            "2025-01-29": {
+                "Number": 6,
+                "cumulative_number": 71,
+                "company": [
+                    "Robbie M",
+                    "Abeer",
+                    "Greg",
+                    "Ruby",
+                    "Sarah",
+                    "Bailey",
+                    "Jessica C",
+                    "Kit",
+                    "Jake",
+                    "Diogo",
+                    "Georgie",
+                    "Mark",
+                    "Beth",
+                    "Jon S",
+                    "Finn",
+                    "Izzy",
+                    "Dan R",
+                    "Alex"
+                ]
+            },
+            "2025-01-31": {
+                "Number": 5,
+                "cumulative_number": 76,
+                "company": [
+                    "Henry",
+                    "Bea",
+                    "Charlie F",
+                    "Becky",
+                    "Tim",
+                    "Georgia B",
+                    "Finn",
+                    "Jeremy"
+                ]
+            },
+            "2025-02-06": {
+                "Number": 5,
+                "cumulative_number": 81,
+                "company": [
+                    "Finn",
+                    "Joseph"
+                ]
+            },
+            "2025-02-07": {
+                "Number": 5,
+                "cumulative_number": 86,
+                "company": [
+                    "Ellie A",
+                    "Dan P"
+                ]
+            },
+            "2025-02-08": {
+                "Number": 12,
+                "cumulative_number": 98,
+                "company": [
+                    "Finn",
+                    "Tom M",
+                    "Guy",
+                    "Dylan",
+                    "Miranda"
+                ]
+            },
+            "2025-02-11": {
+                "Number": 2,
+                "cumulative_number": 100,
+                "company": [
+                    "Passy"
+                ]
+            },
+            "2025-02-12": {
+                "Number": 2,
+                "cumulative_number": 102,
+                "company": [
+                    "Sachin",
+                    "Tor",
+                    "Laurie"
+                ]
+            },
+            "2025-02-13": {
+                "Number": 4,
+                "cumulative_number": 106,
+                "company": [
+                    "Finn",
+                    "Henry",
+                    "Jez",
+                    "Tom M",
+                    "Dylan",
+                    "Guy",
+                    "Tan",
+                    "Georgie",
+                    "Kit",
+                    "Rosalin"
+                ]
+            },
+            "2025-02-14": {
+                "Number": 6,
+                "cumulative_number": 112,
+                "company": [
+                    "Yelande",
+                    "Oli",
+                    "Henny",
+                    "Alex",
+                    "Ellie",
+                    "Finn"
+                ]
+            },
+            "2025-02-15": {
+                "Number": 3,
+                "cumulative_number": 115,
+                "company": [
+                    "Sam C"
+                ]
+            },
+            "2025-02-16": {
+                "Number": 1,
+                "cumulative_number": 116,
+                "company": [
+                    "Passy"
+                ]
+            },
+            "2025-02-22": {
+                "Number": 2,
+                "cumulative_number": 118,
+                "company": [
+                    "Tor",
+                    "Laurie",
+                    "Dan P",
+                    "Henny"
+                ]
+            },
+            "2025-02-24": {
+                "Number": 3.5,
+                "cumulative_number": 121.5,
+                "company": [
+                    "Róisín"
+                ]
+            },
+            "2025-02-26": {
+                "Number": 4,
+                "cumulative_number": 125.5,
+                "company": [
+                    "Bailey",
+                    "Beth"
+                ]
+            },
+            "2025-02-27": {
+                "Number": 6,
+                "cumulative_number": 131.5,
+                "company": [
+                    "Akshay",
+                    "Rohin",
+                    "Dan P",
+                    "Sachin"
+                ]
+            },
+            "2025-03-01": {
+                "Number": 3,
+                "cumulative_number": 134.5,
+                "company": [
+                    "Noah",
+                    "Stanley",
+                    "Luke"
+                ]
+            },
+            "2025-03-02": {
+                "Number": 4,
+                "cumulative_number": 138.5,
+                "company": [
+                    "Róisín"
+                ]
+            },
+            "2025-03-04": {
+                "Number": 3,
+                "cumulative_number": 141.5,
+                "company": [
+                    "Finn",
+                    "Anna"
+                ]
+            },
+            "2025-03-05": {
+                "Number": 7,
+                "cumulative_number": 148.5,
+                "company": [
+                    "Rosalin",
+                    "Abbie",
+                    "Ellen",
+                    "Rosalin",
+                    "Abeer",
+                    "Greg",
+                    "Ellen"
+                ]
+            },
+            "2025-03-06": {
+                "Number": 2,
+                "cumulative_number": 150.5,
+                "company": [
+                    "Mon",
+                    "Charlie",
+                    "Rosalin"
+                ]
+            },
+            "2025-03-07": {
+                "Number": 9,
+                "cumulative_number": 159.5,
+                "company": [
+                    "Jo H",
+                    "Hannah S",
+                    "Alex",
+                    "Becky",
+                    "Jamie",
+                    "Izzy",
+                    "Dan R",
+                    "Finn",
+                    "Anna"
+                ]
+            },
+            "2025-03-08": {
+                "Number": 11,
+                "cumulative_number": 170.5,
+                "company": [
+                    "Emmeline",
+                    "Martha",
+                    "Laura",
+                    "Ania",
+                    "Rufus",
+                    "Alex F",
+                    "James",
+                    "Mike",
+                    "Pablo",
+                    "Ash",
+                    "Pablo",
+                    "Ash"
+                ]
+            },
+            "2025-03-11": {
+                "Number": 5,
+                "cumulative_number": 175.5,
+                "company": [
+                    "Kit",
+                    "Noah",
+                    "Stanley",
+                    "Zoe"
+                ]
+            },
+            "2025-03-12": {
+                "Number": 3,
+                "cumulative_number": 178.5,
+                "company": [
+                    "Róisín"
+                ]
+            },
+            "2025-03-13": {
+                "Number": 2,
+                "cumulative_number": 180.5,
+                "company": [
+                    "Martha"
+                ]
+            },
+            "2025-03-14": {
+                "Number": 5,
+                "cumulative_number": 185.5,
+                "company": [
+                    "Martha",
+                    "Noah"
+                ]
+            },
+            "2025-03-15": {
+                "Number": 2,
+                "cumulative_number": 187.5,
+                "company": [
+                    "Martha",
+                    "Noah"
+                ]
+            },
+            "2025-03-16": {
+                "Number": 5,
+                "cumulative_number": 192.5,
+                "company": [
+                    "Martha",
+                    "Noah"
+                ]
+            },
+            "2025-03-18": {
+                "Number": 4,
+                "cumulative_number": 196.5,
+                "company": [
+                    "Sam",
+                    "Mark"
+                ]
+            },
+            "2025-03-21": {
+                "Number": 6,
+                "cumulative_number": 202.5,
+                "company": [
+                    "Tor",
+                    "Els",
+                    "Monty",
+                    "Miranda",
+                    "Laurie"
+                ]
+            },
+            "2025-03-26": {
+                "Number": 1,
+                "cumulative_number": 203.5,
+                "company": [
+                    "Lynn",
+                    "Rick"
+                ]
+            },
+            "2025-03-28": {
+                "Number": 1,
+                "cumulative_number": 204.5,
+                "company": [
+                    "Lynn",
+                    "Rick"
+                ]
+            },
+            "2025-03-29": {
+                "Number": 4,
+                "cumulative_number": 208.5,
+                "company": [
+                    "Lynn",
+                    "Rick"
+                ]
+            },
+            "2025-03-31": {
+                "Number": 3,
+                "cumulative_number": 211.5,
+                "company": [
+                    "Lucia",
+                    "Imi"
+                ]
+            },
+            "2025-04-01": {
+                "Number": 1,
+                "cumulative_number": 212.5,
+                "company": [
+                    "Róisín"
+                ]
+            },
+            "2025-04-02": {
+                "Number": 2,
+                "cumulative_number": 214.5,
+                "company": [
+                    "Ellie S"
+                ]
+            },
+            "2025-04-04": {
+                "Number": 6,
+                "cumulative_number": 220.5,
+                "company": [
+                    "Jez",
+                    "Sarah D",
+                    "Róisín",
+                    "Sarah D"
+                ]
+            },
+            "2025-04-05": {
+                "Number": 4,
+                "cumulative_number": 224.5,
+                "company": [
+                    "Hampus",
+                    "Dan R",
+                    "Alex",
+                    "Jamie S",
+                    "Noah",
+                    "Stanley",
+                    "Zoe"
+                ]
+            },
+            "2025-04-08": {
+                "Number": 4,
+                "cumulative_number": 228.5,
+                "company": [
+                    "Kit",
+                    "Martha"
+                ]
+            },
+            "2025-04-09": {
+                "Number": 8,
+                "cumulative_number": 236.5,
+                "company": [
+                    "Avani",
+                    "Pete",
+                    "Paolo",
+                    "Georgia B",
+                    "Nikhita",
+                    "Pete",
+                    "Nikhita"
+                ]
+            },
+            "2025-04-11": {
+                "Number": 4,
+                "cumulative_number": 240.5,
+                "company": [
+                    "Sachin",
+                    "Conor",
+                    "Dan P"
+                ]
+            },
+            "2025-04-13": {
+                "Number": 1,
+                "cumulative_number": 241.5,
+                "company": [
+                    "Róisín"
+                ]
+            },
+            "2025-04-15": {
+                "Number": 6,
+                "cumulative_number": 247.5,
+                "company": [
+                    "",
+                    "Robbie M",
+                    "Ruby",
+                    "Bailey",
+                    "Tan",
+                    "Kit",
+                    "James Hough",
+                    "Ellen",
+                    "Sarah",
+                    "Robbie M",
+                    "Ruby",
+                    "Bailey",
+                    "Tan",
+                    "Kit",
+                    "James Hough",
+                    "Ellen",
+                    "Sarah"
+                ]
+            },
+            "2025-04-17": {
+                "Number": 3,
+                "cumulative_number": 250.5,
+                "company": [
+                    "Róisín"
+                ]
+            },
+            "2025-04-18": {
+                "Number": 8,
+                "cumulative_number": 258.5,
+                "company": [
+                    "Finn",
+                    "Timo",
+                    "Anna",
+                    "Roz",
+                    "Laurie",
+                    "Mash"
+                ]
+            },
+            "2025-04-19": {
+                "Number": 2.5,
+                "cumulative_number": 261,
+                "company": [
+                    "Nina",
+                    "Jamie S",
+                    "Jo H",
+                    "Hannah S",
+                    "Alex",
+                    "Izzy",
+                    "Georgia B",
+                    "Dan R"
+                ]
+            },
+            "2025-04-20": {
+                "Number": 2,
+                "cumulative_number": 263,
+                "company": [
+                    "Laurie"
+                ]
+            },
+            "2025-04-23": {
+                "Number": 3,
+                "cumulative_number": 266,
+                "company": [
+                    "Noah",
+                    "Stanley"
+                ]
+            },
+            "2025-04-24": {
+                "Number": 4,
+                "cumulative_number": 270,
+                "company": [
+                    "Finn",
+                    "Anna",
+                    "Róisín"
+                ]
+            },
+            "2025-04-25": {
+                "Number": 5,
+                "cumulative_number": 275,
+                "company": [
+                    "Martha",
+                    "Laurie",
+                    "Jade",
+                    "Stanley"
+                ]
+            },
+            "2025-04-26": {
+                "Number": 9,
+                "cumulative_number": 284,
+                "company": [
+                    "Sam G",
+                    "Anna",
+                    "Nicola",
+                    "Jono",
+                    "Georgina K",
+                    "Róisín",
+                    "Anastasiya",
+                    "Alex C",
+                    "Timo",
+                    "Sam G",
+                    "Anna",
+                    "Nicola",
+                    "Jono",
+                    "Róisín",
+                    "Anastasiya",
+                    "Timo",
+                    "Georgia B",
+                    "Róisín"
+                ]
+            },
+            "2025-05-01": {
+                "Number": 3,
+                "cumulative_number": 287,
+                "company": [
+                    "Hayden",
+                    "Matt O",
+                    "Sam"
+                ]
+            },
+            "2025-05-02": {
+                "Number": 6,
+                "cumulative_number": 293,
+                "company": [
+                    "Sam G",
+                    "Jack",
+                    "Matt M",
+                    "Hayden",
+                    "James R",
+                    "Tim",
+                    "Sam",
+                    "Dave M",
+                    "Jonny",
+                    "Matt O",
+                    "Charlie M",
+                    "Matt M",
+                    "Hayden",
+                    "James R",
+                    "Tim",
+                    "Sam",
+                    "Dave M",
+                    "Jonny",
+                    "Matt O",
+                    "Charlie M"
+                ]
+            },
+            "2025-05-03": {
+                "Number": 1,
+                "cumulative_number": 294,
+                "company": [
+                    "Sam G",
+                    "Jack",
+                    "Matt M",
+                    "Hayden",
+                    "James R",
+                    "Tim",
+                    "Sam",
+                    "Dave M",
+                    "Jonny",
+                    "Matt O",
+                    "Charlie M"
+                ]
+            },
+            "2025-05-04": {
+                "Number": 3,
+                "cumulative_number": 297,
+                "company": [
+                    "Sam G",
+                    "Jack",
+                    "Matt M",
+                    "Hayden",
+                    "James R",
+                    "Tim",
+                    "Sam",
+                    "Dave M",
+                    "Jonny",
+                    "Matt O",
+                    "Charlie M"
+                ]
+            },
+            "2025-05-07": {
+                "Number": 4,
+                "cumulative_number": 301,
+                "company": [
+                    "Laurie",
+                    "Jess",
+                    "Tor"
+                ]
+            },
+            "2025-05-09": {
+                "Number": 5,
+                "cumulative_number": 306,
+                "company": [
+                    "Hannah S",
+                    "Dan R",
+                    "Alex",
+                    "Saz"
+                ]
+            },
+            "2025-05-10": {
+                "Number": 10,
+                "cumulative_number": 316,
+                "company": [
+                    "Mike",
+                    "Pablo",
+                    "Ash",
+                    "Dan P",
+                    "Liam"
+                ]
+            },
+            "2025-05-15": {
+                "Number": 3,
+                "cumulative_number": 319,
+                "company": [
+                    "Tor",
+                    "Laurie",
+                    "Els"
+                ]
+            },
+            "2025-05-16": {
+                "Number": 9,
+                "cumulative_number": 328,
+                "company": [
+                    "Mike",
+                    "Pablo",
+                    "Ash",
+                    "Noah"
+                ]
+            },
+            "2025-05-18": {
+                "Number": 1,
+                "cumulative_number": 329,
+                "company": [
+                    "Finn",
+                    "Lynn",
+                    "Rick",
+                    "Anna",
+                    "Claud",
+                    "Sachin",
+                    "Tor",
+                    "Guy",
+                    "Jo H",
+                    "Dan P",
+                    "Alex",
+                    "Tom M",
+                    "Róisín",
+                    "Izzy",
+                    "Laurie",
+                    "Dan R"
+                ]
+            },
+            "2025-05-19": {
+                "Number": 3,
+                "cumulative_number": 332,
+                "company": [
+                    "Kit",
+                    "Georgie",
+                    "Charlotte B",
+                    "Rosalin"
+                ]
+            },
+            "2025-05-22": {
+                "Number": 6,
+                "cumulative_number": 338,
+                "company": [
+                    "Robbie M",
+                    "Ruby",
+                    "Tan",
+                    "Kit",
+                    "Ellen",
+                    "Charlotte M",
+                    "Georgie",
+                    "Beth",
+                    "Robbie M",
+                    "Ruby",
+                    "Tan",
+                    "Ellen",
+                    "Charlotte M",
+                    "Georgie",
+                    "Beth",
+                    "Dan P"
+                ]
+            },
+            "2025-05-23": {
+                "Number": 3,
+                "cumulative_number": 341,
+                "company": [
+                    "Finn",
+                    "Tor",
+                    "Anna",
+                    "Els",
+                    "Laurie"
+                ]
+            },
+            "2025-05-24": {
+                "Number": 9,
+                "cumulative_number": 350,
+                "company": [
+                    "Alex K",
+                    "Jeremy",
+                    "Tom M",
+                    "Tom H",
+                    "Dylan",
+                    "Sarah D",
+                    "Holly J",
+                    "Ellie S"
+                ]
+            },
+            "2025-05-25": {
+                "Number": 2,
+                "cumulative_number": 352,
+                "company": [
+                    "Juhi",
+                    "Izzy",
+                    "Dan R",
+                    "Hannah S"
+                ]
+            },
+            "2025-05-26": {
+                "Number": 2.5,
+                "cumulative_number": 354.5,
+                "company": [
+                    "Róisín"
+                ]
+            },
+            "2025-05-27": {
+                "Number": 5,
+                "cumulative_number": 359.5,
+                "company": [
+                    "Solo"
+                ]
+            },
+            "2025-05-30": {
+                "Number": 1,
+                "cumulative_number": 360.5,
+                "company": [
+                    "Rick",
+                    "Hayden",
+                    "James R",
+                    "Tim",
+                    "Sam",
+                    "Charlie N",
+                    "Conor F",
+                    "Rocky"
+                ]
+            },
+            "2025-06-02": {
+                "Number": 2,
+                "cumulative_number": 362.5,
+                "company": [
+                    "Lynn",
+                    "Rick"
+                ]
+            },
+            "2025-06-03": {
+                "Number": 4,
+                "cumulative_number": 366.5,
+                "company": [
+                    "Lynn",
+                    "Rick",
+                    "Charlotte",
+                    "Sam",
+                    "James",
+                    "Ellie C",
+                    "Conor F"
+                ]
+            },
+            "2025-06-04": {
+                "Number": 7,
+                "cumulative_number": 373.5,
+                "company": [
+                    "Able",
+                    "Rick",
+                    "Charlotte",
+                    "Sam",
+                    "James",
+                    "Ellie C",
+                    "Bella",
+                    "Conor F",
+                    "Rachel F",
+                    "Charlotte",
+                    "Max F",
+                    "Sam",
+                    "James",
+                    "Ellie C",
+                    "Conor F",
+                    "Charlotte",
+                    "Sam",
+                    "James",
+                    "Ellie C",
+                    "Conor F"
+                ]
+            },
+            "2025-06-05": {
+                "Number": 1,
+                "cumulative_number": 374.5,
+                "company": [
+                    "Lynn",
+                    "Rick"
+                ]
+            },
+            "2025-06-06": {
+                "Number": 1,
+                "cumulative_number": 375.5,
+                "company": [
+                    "Lynn",
+                    "Rick"
+                ]
+            },
+            "2025-06-10": {
+                "Number": 4,
+                "cumulative_number": 379.5,
+                "company": [
+                    "Róisín"
+                ]
+            },
+            "2025-06-11": {
+                "Number": 6,
+                "cumulative_number": 385.5,
+                "company": [
+                    "Georgia B",
+                    "Annie M",
+                    "Pete",
+                    "Nikhita"
+                ]
+            },
+            "2025-06-12": {
+                "Number": 6,
+                "cumulative_number": 391.5,
+                "company": [
+                    "Lily",
+                    "Sachin",
+                    "Tom C",
+                    "Charlie S",
+                    "James N",
+                    "Lucy"
+                ]
+            },
+            "2025-06-14": {
+                "Number": 8.5,
+                "cumulative_number": 400,
+                "company": [
+                    "Laurie",
+                    "Iain",
+                    "Tor",
+                    "Iain",
+                    "Roz",
+                    "Laurie",
+                    "Mash"
+                ]
+            },
+            "2025-06-18": {
+                "Number": 4,
+                "cumulative_number": 404,
+                "company": [
+                    "Robbie M",
+                    "Ruby",
+                    "Abeer",
+                    "Tan",
+                    "Ellen"
+                ]
+            },
+            "2025-06-19": {
+                "Number": 2.5,
+                "cumulative_number": 406.5,
+                "company": [
+                    "Róisín"
+                ]
+            },
+            "2025-06-21": {
+                "Number": 4,
+                "cumulative_number": 410.5,
+                "company": [
+                    "Thiri",
+                    "Oli",
+                    "Vicky"
+                ]
+            },
+            "2025-06-25": {
+                "Number": 3,
+                "cumulative_number": 413.5,
+                "company": [
+                    "Ellie C",
+                    "Rick",
+                    "Lynn",
+                    "Sam",
+                    "Ellie C",
+                    "Sam"
+                ]
+            },
+            "2025-06-27": {
+                "Number": 1,
+                "cumulative_number": 414.5,
+                "company": [
+                    "Nick T"
+                ]
+            },
+            "2025-06-28": {
+                "Number": 7,
+                "cumulative_number": 421.5,
+                "company": [
+                    "Georgia B",
+                    "Emma H"
+                ]
+            },
+            "2025-07-01": {
+                "Number": 2,
+                "cumulative_number": 423.5,
+                "company": [
+                    "Róisín"
+                ]
+            },
+            "2025-07-02": {
+                "Number": 7,
+                "cumulative_number": 430.5,
+                "company": [
+                    "Jo H",
+                    "Hannah S",
+                    "Alex",
+                    "Georgia B",
+                    "Dan R"
+                ]
+            },
+            "2025-07-03": {
+                "Number": 3.5,
+                "cumulative_number": 434,
+                "company": [
+                    "Noah",
+                    "Stanley",
+                    "Ellie A",
+                    "Noah",
+                    "Stanley"
+                ]
+            },
+            "2025-07-04": {
+                "Number": 9,
+                "cumulative_number": 443,
+                "company": [
+                    "Sachin",
+                    "Laurie"
+                ]
+            },
+            "2025-07-05": {
+                "Number": 1.5,
+                "cumulative_number": 444.5,
+                "company": [
+                    "Sachin",
+                    "Laurie"
+                ]
+            },
+            "2025-07-06": {
+                "Number": 3,
+                "cumulative_number": 447.5,
+                "company": [
+                    "Sachin",
+                    "Laurie"
+                ]
+            },
+            "2025-07-08": {
+                "Number": 6,
+                "cumulative_number": 453.5,
+                "company": [
+                    "Robbie M",
+                    "Ruby",
+                    "Tan",
+                    "Jessica C",
+                    "Kit",
+                    "Ellen",
+                    "Rosalin",
+                    "Diogo",
+                    "Jon S",
+                    "Robbie M",
+                    "Ruby",
+                    "Tan",
+                    "Jessica C",
+                    "Kit",
+                    "Ellen",
+                    "Rosalin",
+                    "Jon S",
+                    "Robbie M",
+                    "Ruby",
+                    "Tan",
+                    "Jessica C",
+                    "Rosalin",
+                    "Ellen"
+                ]
+            },
+            "2025-07-09": {
+                "Number": 4,
+                "cumulative_number": 457.5,
+                "company": [
+                    "Martha",
+                    "Róisín"
+                ]
+            },
+            "2025-07-10": {
+                "Number": 3,
+                "cumulative_number": 460.5,
+                "company": [
+                    "Anna"
+                ]
+            },
+            "2025-07-11": {
+                "Number": 9,
+                "cumulative_number": 469.5,
+                "company": [
+                    "Alex S",
+                    "Faye",
+                    "Alex S",
+                    "Martha",
+                    "Faye",
+                    "Laurie",
+                    "Lewis K",
+                    "Lewis K"
+                ]
+            },
+            "2025-07-12": {
+                "Number": 9,
+                "cumulative_number": 478.5,
+                "company": [
+                    "Jess C",
+                    "Robbie M",
+                    "Kit",
+                    "Tan",
+                    "Martha",
+                    "Laurie",
+                    "Róisín"
+                ]
+            },
+            "2025-07-16": {
+                "Number": 5,
+                "cumulative_number": 483.5,
+                "company": [
+                    "Akshay",
+                    "Rick",
+                    "Sachin"
+                ]
+            },
+            "2025-07-17": {
+                "Number": 8,
+                "cumulative_number": 491.5,
+                "company": [
+                    "Dan V",
+                    "Guy",
+                    "Dom",
+                    "Tom H",
+                    "Kit"
+                ]
+            },
+            "2025-07-18": {
+                "Number": 7,
+                "cumulative_number": 498.5,
+                "company": [
+                    "Martha",
+                    "Faye",
+                    "Alex",
+                    "Ciara",
+                    "Róisín",
+                    "Jim O"
+                ]
+            },
+            "2025-07-19": {
+                "Number": 6.5,
+                "cumulative_number": 505,
+                "company": [
+                    "Ruby",
+                    "Jonny",
+                    "Beth",
+                    "Martha"
+                ]
+            },
+            "2025-07-22": {
+                "Number": 5,
+                "cumulative_number": 510,
+                "company": [
+                    "Thiri"
+                ]
+            },
+            "2025-07-24": {
+                "Number": 7,
+                "cumulative_number": 517,
+                "company": [
+                    "Nina",
+                    "Jamie S",
+                    "Jo H",
+                    "Jim",
+                    "Hannah S",
+                    "Alex",
+                    "Ollie",
+                    "Chynna",
+                    "Georgia B",
+                    "Ollie",
+                    "Alex",
+                    "Jim",
+                    "Nina"
+                ]
+            },
+            "2025-07-25": {
+                "Number": 6,
+                "cumulative_number": 523,
+                "company": [
+                    "Baz",
+                    "Conor",
+                    "Rohin",
+                    "Dan P",
+                    "Sachin",
+                    "Conor",
+                    "Rohin",
+                    "Dan P",
+                    "Tor",
+                    "Laurie"
+                ]
+            },
+            "2025-07-26": {
+                "Number": 3,
+                "cumulative_number": 526,
+                "company": [
+                    "Róisín"
+                ]
+            },
+            "2025-07-30": {
+                "Number": 6,
+                "cumulative_number": 532,
+                "company": [
+                    "Henry",
+                    "Martha",
+                    "Henry",
+                    "Martha",
+                    "Sachin",
+                    "Róisín",
+                    "Henry",
+                    "Kit"
+                ]
+            },
+            "2025-07-31": {
+                "Number": 10,
+                "cumulative_number": 542,
+                "company": [
+                    "",
+                    "Jamie S",
+                    "Jim",
+                    "Hannah S",
+                    "Alex",
+                    "Charlie F",
+                    "James R",
+                    "Chynna",
+                    "Pete",
+                    "Georgia B",
+                    "Jo S",
+                    "Nikhita",
+                    "Ellie C",
+                    "Sam"
+                ]
+            },
+            "2025-08-01": {
+                "Number": 7,
+                "cumulative_number": 549,
+                "company": [
+                    "Alex ",
+                    "Sachin",
+                    "Jack",
+                    "Baz",
+                    "Els P",
+                    "Georgina K",
+                    "Ellie S",
+                    "Robbie B",
+                    "Alex C",
+                    "Timo",
+                    "Jack",
+                    "Baz",
+                    "Els P",
+                    "Georgina K",
+                    "Ellie S",
+                    "Robbie B",
+                    "Alex C",
+                    "Timo"
+                ]
+            },
+            "2025-08-05": {
+                "Number": 5,
+                "cumulative_number": 554,
+                "company": [
+                    "Naomi",
+                    "Avani",
+                    "Charlotte",
+                    "Georgie",
+                    "Ruby",
+                    "Caroline"
+                ]
+            },
+            "2025-08-06": {
+                "Number": 6.5,
+                "cumulative_number": 560.5,
+                "company": [
+                    "Alex",
+                    "Saz",
+                    "Alex"
+                ]
+            },
+            "2025-08-08": {
+                "Number": 6,
+                "cumulative_number": 566.5,
+                "company": [
+                    "Lynn",
+                    "Róisín",
+                    "Róisín"
+                ]
+            },
+            "2025-08-09": {
+                "Number": 7,
+                "cumulative_number": 573.5,
+                "company": [
+                    "Martha",
+                    "Laurie",
+                    "Anna",
+                    "Martha",
+                    "Anna",
+                    "Martha"
+                ]
+            },
+            "2025-08-11": {
+                "Number": 3,
+                "cumulative_number": 576.5,
+                "company": [
+                    "Finn",
+                    "Ellie A",
+                    "Finn"
+                ]
+            },
+            "2025-08-13": {
+                "Number": 10,
+                "cumulative_number": 586.5,
+                "company": [
+                    "Martha",
+                    "Rohan",
+                    "Jade",
+                    "Bella",
+                    "Emmeline",
+                    "Martha G",
+                    "Martha",
+                    "Noah",
+                    "Martha",
+                    "Jade",
+                    "Martha",
+                    "Martha",
+                    "Martha G",
+                    "Noah",
+                    "Sasha"
+                ]
+            },
+            "2025-08-14": {
+                "Number": 10,
+                "cumulative_number": 596.5,
+                "company": [
+                    "Martha",
+                    "Alex F",
+                    "Martha G",
+                    "Noah",
+                    "Martha",
+                    "Martha",
+                    "Will",
+                    "Noah"
+                ]
+            },
+            "2025-08-15": {
+                "Number": 11,
+                "cumulative_number": 607.5,
+                "company": [
+                    "",
+                    "Martha",
+                    "Jade",
+                    "Martha",
+                    "Martha",
+                    "Michelle"
+                ]
+            },
+            "2025-08-16": {
+                "Number": 11,
+                "cumulative_number": 618.5,
+                "company": [
+                    "Alex S",
+                    "Faye",
+                    "Noah",
+                    "Timo",
+                    "Michelle",
+                    "Martha",
+                    "Imogen",
+                    "WIll",
+                    "Noah",
+                    "Timo",
+                    "Martha",
+                    "Timo",
+                    "Imogen",
+                    "Noah",
+                    "Timo",
+                    "Timo"
+                ]
+            },
+            "2025-08-19": {
+                "Number": 5,
+                "cumulative_number": 623.5,
+                "company": [
+                    "Miranda"
+                ]
+            },
+            "2025-08-20": {
+                "Number": 5,
+                "cumulative_number": 628.5,
+                "company": [
+                    "Laurie"
+                ]
+            },
+            "2025-08-21": {
+                "Number": 6,
+                "cumulative_number": 634.5,
+                "company": [
+                    "Sachin",
+                    "Laurie",
+                    "Ellie A",
+                    "Dan P",
+                    "Ellie A",
+                    "Laurie",
+                    "Ellie A"
+                ]
+            },
+            "2025-08-22": {
+                "Number": 1,
+                "cumulative_number": 635.5,
+                "company": [
+                    "Lynn"
+                ]
+            },
+            "2025-08-23": {
+                "Number": 9,
+                "cumulative_number": 644.5,
+                "company": [
+                    "Sam"
+                ]
+            },
+            "2025-08-24": {
+                "Number": 7,
+                "cumulative_number": 651.5,
+                "company": [
+                    "Tom C",
+                    "Dan P",
+                    "Lewis K"
+                ]
+            },
+            "2025-08-26": {
+                "Number": 2,
+                "cumulative_number": 653.5,
+                "company": [
+                    "Rosalin"
+                ]
+            },
+            "2025-08-28": {
+                "Number": 4,
+                "cumulative_number": 657.5,
+                "company": [
+                    "Georgina K",
+                    "Joe S"
+                ]
+            },
+            "2025-08-29": {
+                "Number": 5,
+                "cumulative_number": 662.5,
+                "company": [
+                    "Miranda"
+                ]
+            },
+            "2025-08-30": {
+                "Number": 4,
+                "cumulative_number": 666.5,
+                "company": [
+                    "Laurie",
+                    "Anna"
+                ]
+            },
+            "2025-09-01": {
+                "Number": 2,
+                "cumulative_number": 668.5,
+                "company": [
+                    "Agnes",
+                    "Ellie C",
+                    "Sam"
+                ]
+            },
+            "2025-09-03": {
+                "Number": 6,
+                "cumulative_number": 674.5,
+                "company": [
+                    "Pete"
+                ]
+            },
+            "2025-09-04": {
+                "Number": 10,
+                "cumulative_number": 684.5,
+                "company": [
+                    "Ruby",
+                    "Greg",
+                    "Hough",
+                    "Robbie",
+                    "Tan",
+                    "Kit",
+                    "Nathalie",
+                    "Ellen",
+                    "Rosalin",
+                    "Sean",
+                    "Georgie",
+                    "Caroline",
+                    "Beth",
+                    "Jon S",
+                    "Robbie M",
+                    "Ruby",
+                    "Greg",
+                    "Hough",
+                    "Tan",
+                    "Kit",
+                    "Ellen",
+                    "Rosalin",
+                    "Sean",
+                    "Georgie",
+                    "Caroline",
+                    "Beth",
+                    "Jon S",
+                    "Robbie M",
+                    "Ruby",
+                    "Greg",
+                    "Hough",
+                    "Tan",
+                    "Ellen",
+                    "Rosalin",
+                    "Georgie",
+                    "Caroline",
+                    "Beth",
+                    "Jon S",
+                    "Robbie M",
+                    "Ruby",
+                    "Greg",
+                    "Hough",
+                    "Tan",
+                    "Rosalin",
+                    "Georgie",
+                    "Caroline",
+                    "Beth",
+                    "Jon S",
+                    "Ruby",
+                    "Greg",
+                    "Charlotte",
+                    "Tan",
+                    "Nathalie",
+                    "Ellen",
+                    "Rosalin",
+                    "Beth",
+                    "Ruby",
+                    "Greg",
+                    "Tan",
+                    "Nathalie",
+                    "Rosalin",
+                    "Ellen",
+                    "Beth",
+                    "Noah",
+                    "Noah",
+                    "Stanley"
+                ]
+            },
+            "2025-09-05": {
+                "Number": 9,
+                "cumulative_number": 693.5,
+                "company": [
+                    "Tor",
+                    "Noah S",
+                    "Iain",
+                    "Theo",
+                    "Serena",
+                    "Roz",
+                    "Laurie",
+                    "Mash",
+                    "Noah",
+                    "Jess C",
+                    "Jo S"
+                ]
+            },
+            "2025-09-07": {
+                "Number": 2,
+                "cumulative_number": 695.5,
+                "company": [
+                    "Miranda"
+                ]
+            },
+            "2025-09-10": {
+                "Number": 4,
+                "cumulative_number": 699.5,
+                "company": [
+                    "Martha",
+                    "Lynn",
+                    "Rick",
+                    "Lynn",
+                    "Rick"
+                ]
+            },
+            "2025-09-11": {
+                "Number": 6,
+                "cumulative_number": 705.5,
+                "company": [
+                    "Jessica C",
+                    "Charlotte B",
+                    "Tor",
+                    "Ellie A",
+                    "Dan P",
+                    "Laurie",
+                    "Conor M",
+                    "Tor",
+                    "Laurie",
+                    "Ellie A",
+                    "Conor M"
+                ]
+            },
+            "2025-09-12": {
+                "Number": 11,
+                "cumulative_number": 716.5,
+                "company": [
+                    "Jade",
+                    "Kathryn",
+                    "Juhi",
+                    "Nick P",
+                    "Stanley"
+                ]
+            },
+            "2025-09-13": {
+                "Number": 8.5,
+                "cumulative_number": 725,
+                "company": [
+                    "Timo",
+                    "Laurie",
+                    "Anna",
+                    "Martha"
+                ]
+            },
+            "2025-09-19": {
+                "Number": 5,
+                "cumulative_number": 730,
+                "company": [
+                    "Finn",
+                    "Anna",
+                    "Finn"
+                ]
+            },
+            "2025-09-20": {
+                "Number": 4,
+                "cumulative_number": 734,
+                "company": [
+                    "Rick"
+                ]
+            },
+            "2025-09-23": {
+                "Number": 5,
+                "cumulative_number": 739,
+                "company": [
+                    "Bella H"
+                ]
+            }
+        }
     },
     "friends_info": {
         "Laurie": {

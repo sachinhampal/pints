@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pints</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Import ECharts -->
+  <script src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+  <script src="https://unpkg.com/ag-grid-community/dist/ag-grid-community.min.noStyle.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/ag-grid-community/dist/styles/ag-grid.css">
+  <link rel="stylesheet" href="https://unpkg.com/ag-grid-community/dist/styles/ag-theme-alpine.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <div class="cdiv">
+    <h1 style="font-family: IBM Plex Mono;">Leaderboard</h1>
+    <div id="leaderboardGrid" class="grid"></div>
+  </div>
+ 
+  <div class="cdiv">
+    <button id="showPie">Show Pie Chart</button>
+    <button id="showGrid">Show Grid</button>
+    <div id="locationInfoNetedPieChart" class="chart"></div>
+    <div id="locationInfoGrid" class="chart" style="display: none;"></div>
+  </div>
+  
+  <div class="cdiv">
+    <div id="pintsPerLocationChart" class="chart"></div>
+  </div>
+
+  <div class="cdiv">
+    <div id="pintsPerMonthChart" class="chart"></div>
+  </div>
+<script src="index.js"></script>
+</body>
+</html>

@@ -11,7 +11,7 @@ node_modules/
 
 # Virtual environments
 .venv
-
+.DS_Store
 
 # Secrets
 .env

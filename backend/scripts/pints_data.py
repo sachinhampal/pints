@@ -21,7 +21,9 @@ def compute_pints_data(
     return {
         "total_pint_count": _compute_total_pint_count(input_pints_df),
         "pint_info": _compute_pint_info(input_pints_df),
-        "location_info": _compute_location_info(input_pints_df, visited_locations_2_coordinates),
+        "location_info": _compute_location_info(
+            input_pints_df, visited_locations_2_coordinates
+        ),
         "date_info": _compute_date_info(input_pints_df),
         "friends_info": _compute_friends_info(input_pints_df),
     }
@@ -50,18 +52,21 @@ def _compute_friends_info(
             location = row["Location"]
             if not bool(pint_info):
                 pint_info["pint_count"] = number
-                pint_info["pub_2_frequency"] = _coll.defaultdict(int, **{location: number})
+                pint_info["pub_2_frequency"] = _coll.defaultdict(
+                    int, **{location: number}
+                )
                 pint_info["icon"] = "&#x1F37A"
             else:
                 pint_info["pint_count"] += number
                 pint_info["pub_2_frequency"][location] += number
 
-
     # NOTE: We only use a data frame here to leverage the `rank` and `sort_values` functionality
-    df = _pd.DataFrame(index=list(name_2_pint_info.keys()), data=name_2_pint_info.values())
+    df = _pd.DataFrame(
+        index=list(name_2_pint_info.keys()), data=name_2_pint_info.values()
+    )
     df["pint_count_rank"] = df["pint_count"].rank(method="min", ascending=False)
     df = df.sort_values("pint_count_rank", ascending=True)
-    name_2_rank = df.to_dict('index')
+    name_2_rank = df.to_dict("index")
 
     return name_2_rank
 
@@ -105,11 +110,45 @@ def _compute_date_info(input_pints_df: _pd.DataFrame) -> _t.Dict[str, _t.Any]:
             .to_dict("records")
         )
 
+    # Compute pints stats per entry; which is essentially grouping data by date and company
+    stats_per_entry_df = input_pints_df.assign(
+        **{
+            "company": input_pints_df["company_list"].apply(lambda x: tuple(sorted(x))),
+            "_datetime_date_": date_series.map(
+                lambda x: _dt.datetime.strptime(x, "%d/%m/%Y").date()
+            ),
+        }
+    )
+    stats_per_entry_df = stats_per_entry_df.groupby(
+        ["_datetime_date_", "company"], as_index=False
+    ).agg({"Number": "sum", "Pint": lambda x: x.mode().iloc[0]})
+    stats_per_entry_df["_datetime_date_"] = stats_per_entry_df["_datetime_date_"].apply(
+        str
+    )
+    stats_per_entry_df["company"] = stats_per_entry_df["company"].apply(
+        lambda x: list(set(x))
+    )
+    stats_per_entry_df["cumulative_number"] = stats_per_entry_df["Number"].cumsum()
+    stats_per_entry_dict = stats_per_entry_df.to_dict(orient="index")
+    date_info_dict["time_series_entry_info"] = stats_per_entry_dict
+
+    # Stats per day
+    stats_per_date_df = stats_per_entry_df.groupby("_datetime_date_").agg(
+        {
+            "Number": "sum",
+            "cumulative_number": "max",
+            "company": "sum",  # Does this entry make sense?
+        }
+    )
+    stats_per_date_dict = stats_per_date_df.to_dict(orient="index")
+    date_info_dict["time_series_date_info"] = stats_per_date_dict
+
     return date_info_dict
 
 
 def _compute_location_info(
-    input_pints_df: _pd.DataFrame, visited_locations_2_coordinates: _t.Optional[dict[str, _t.Iterable[str]]] = None,
+    input_pints_df: _pd.DataFrame,
+    visited_locations_2_coordinates: _t.Optional[dict[str, _t.Iterable[str]]] = None,
 ) -> dict[_t.Any, dict[_t.Any, _t.Any]]:
     """
     Compute pints-related data about each location visited.
@@ -145,7 +184,7 @@ def _compute_location_info(
     api_key = _os.getenv("GOOGLE_MAPS_API_KEY")
     url = "https://maps.googleapis.com/maps/api/geocode/json"
     for name, info_dict in location_name_2_info_dict.items():
-        name_str = str(name) # Adding this comment as Pylance complains
+        name_str = str(name)  # Adding this comment as Pylance complains
         if name in visited_locations_2_coordinates:
             info_dict["coordinates"] = visited_locations_2_coordinates[name_str]
             continue
