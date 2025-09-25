@@ -11,7 +11,7 @@
 
 /* Layout background wrapper */
 .page-wrapper {
-  max-height: 110vh;
+  max-height: 70vh;
   background-color: #f5f6f8;
   padding: 2rem;
   display: flex;
@@ -34,7 +34,7 @@
 .header {
   background: linear-gradient(135deg, #0045FF, #00C2FF);
   color: white;
-  padding: 2rem 1.5rem;
+  padding: 1rem 1.5rem;
   text-align: center;
   font-family: 'Segoe UI', sans-serif;
   /* border-bottom-left-radius: 2rem; */
@@ -105,13 +105,10 @@
 }
 
 .transaction-list {
-  max-height: 1200px;        /* or whatever height fits your layout */
+  max-height: 1000px;
   overflow-y: auto;
   border-radius: 1rem;
   background: #fff;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  padding: 1rem;
-  margin-top: 1rem;
 }
 
 /* Optional: Style scrollbar (WebKit browsers only) */
@@ -141,8 +138,8 @@
 /* Charts */
 .chart-scroll {
   overflow-x: auto;
-  /* padding: 1rem 0;
-  border: 1px solid #ddd; */
+  padding: 5rem 0;
+  /* border: 1px solid #ddd; */
 }
 
 #visitsChart,

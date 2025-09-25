@@ -12,7 +12,7 @@ const geoJsonFiles = [
   "camden", "city-of-london", "city-of-westminster", "greenwich", "hackney",
   "hammersmith-and-fulham", "islington", "kensington-and-chelsea", "lambeth",
   "lewisham", "southwark", "tower-hamlets", "wandsworth"
-].map(name => `./data/geo-jsons/${name}.geo.json`);
+].map(name => `../data/geo-jsons/${name}.geo.json`);
 
 const fetchTotalPubCount = async () => {
   const counts = await Promise.all(
@@ -67,10 +67,16 @@ loadHeatMapLayers();
 const renderLeaderboard = leaderboard => {
   const container = document.getElementById('leaderboard');
   container.innerHTML = '';
-  leaderboard.forEach(entry => container.appendChild(createLeaderboardItem(entry)));
+
+  // Sort by rank (ascending, 1 = top)
+  const sorted = Object.entries(leaderboard)
+    .map(([name, info]) => ({ name, ...info }))
+    .sort((a, b) => a.rank - b.rank);
+
+  sorted.forEach(entry => container.appendChild(createLeaderboardItem(entry)));
 };
 
-const createLeaderboardItem = ({ icon, name, pint_count }) => {
+const createLeaderboardItem = ({ icon, name, pint_count, pint_count_rank }) => {
   const div = document.createElement('div');
   div.className = 'leaderboard';
 
@@ -79,7 +85,7 @@ const createLeaderboardItem = ({ icon, name, pint_count }) => {
 
   div.innerHTML = `
     <div class="transaction-info">
-      <div class="icon">${icon}</div>
+      <div class="icon">${icon ?? '🍺'}</div>
       <div class="text">${name}</div>
     </div>
     <div class="amount ${className}">${formatted}</div>
@@ -90,15 +96,17 @@ const createLeaderboardItem = ({ icon, name, pint_count }) => {
 
 const loadLeaderboard = async () => {
   try {
-    const res = await fetch('./data/pints_info.json');
+    const res = await fetch('../data/pints_info.json');
     const data = await res.json();
-    renderLeaderboard(data.leaderboard);
-    document.getElementById('balance').textContent = data.total_pint_count.toFixed(1);
+
+    renderLeaderboard(data.friends_info);
+
+    document.getElementById('balance').textContent =
+      data.total_pint_count.toFixed(1);
   } catch (err) {
     console.error('Failed to load leaderboard:', err);
   }
 };
-
 
 // =======================
 // Charts Section
@@ -106,16 +114,15 @@ const loadLeaderboard = async () => {
 
 const loadCharts = async () => {
   try {
-    const res = await fetch('./data/pints_info.json');
+    const res = await fetch('../data/pints_info.json');
     const data = await res.json();
 
-    // Split and sort separately
-    const locationsVisited = data.location_info
-      .slice() // make a copy
+    const locationsVisited = Object.entries(data.location_info)
+      .map(([name, info]) => ({ name, ...info }))
       .sort((a, b) => b.number_of_visits - a.number_of_visits);
 
-    const locationsPints = data.location_info
-      .slice()
+    const locationsPints = Object.entries(data.location_info)
+      .map(([name, info]) => ({ name, ...info }))
       .sort((a, b) => b.number_of_pints - a.number_of_pints);
 
     // Visits chart data

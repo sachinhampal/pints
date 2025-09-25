@@ -9,7 +9,8 @@ def clean_up_input_pints_data(input_data_df: _pd.DataFrame) -> _pd.DataFrame:
     :return: Cleaned-up data frame.
     """
     # Remove empty entries
-    df = input_data_df.loc[input_data_df["Date"].notnull()]
+    date_series = input_data_df["Date"]
+    df = input_data_df.loc[date_series.notnull()]
 
     # Force data types is required becasue the data polled from the Google Sheets API results in string data types when we expect floats
     # TODO Check that the columns names in `_COLUMN_NAME_TO_DTYPE` match the raw data's column names

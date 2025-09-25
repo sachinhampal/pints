@@ -12,58 +12,60 @@
   integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
   crossorigin=""></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.41.0/apexcharts.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
 </head>
 <body>
     <header class="header">
-      <h1>Current Pint Count</h1>
-      <p class="balance" id="balance"></p>
+      <h1 class="h1">Current Pint Count:</h1>
+      <p class="balance" id="balance">Current Pint Count</p>
     </header>
+
+  <div class="page-wrapper">
+    <!-- Use section or div instead of second main -->
+    <section class="app-container">
+      <header class="header">
+        <p class="balance">Leaderboard 📊</p>
+      </header>
+      <div class="transaction-list">
+        <div id="leaderboard" class="transactions"></div>
+      </div>
+    </section>
+    <section class="app-container">
+      <header class="header">
+        <p class="balance">Pint Count per Pub</p>
+      </header>
+        <section class="chart-scroll">
+          <div id="pintsChart"></div>
+      </section>
+    </section>
+  </div>
+
+  <div class="page-wrapper">
+    <!-- Use section or div instead of second main -->
+    <section class="app-container">
+      <header class="header">
+        <p class="balance">Pub Count </p>
+      </header>
+        <section class="chart-scroll">
+          <div id="visitsChart"></div>
+      </section>
+    </section>
+    <section class="app-container">
+      <header class="header">
+        <p class="balance">Pints per Month</p>
+      </header>
+        <section class="chart-scroll">
+          <div id="pintsByMonthChart"></div>
+      </section>
+    </section>
+  </div>
+
   <div class="page-wrapper">
     <section class="app-container">
       <header class="header">
         <p class="balance"> Pints Heat Map</p>
       </header>
       <div id="map" style="height: 80vh; width: 100%;"></div>
-    </section>
-
-    <!-- Use section or div instead of second main -->
-    <section class="app-container">
-      <header class="header">
-        <p class="balance">Leaderboard</p>
-      </header>
-      <div class="transaction-list">
-        <div id="leaderboard" class="transactions"></div>
-      </div>
-    </section>
-  </div>
-  <div class="page-wrapper">
-    <section class="app-container">
-      <header class="header">
-        <p class="balance"> Number of Pints at Each Pub</p>
-      </header>
-        <section class="chart-scroll">
-          <div id="pintsChart"></div>
-      </section>
-    </section>
-    <!-- Use section or div instead of second main -->
-    <section class="app-container">
-      <header class="header">
-        <p class="balance">Visits per Pub</p>
-      </header>
-        <section class="chart-scroll">
-          <div id="visitsChart"></div>
-      </section>
-    </section>
-  </div>
-
-  <div class="page-wrapper">
-    <section class="app-container">
-      <header class="header">
-        <p class="balance"> Number of Pints per Month</p>
-      </header>
-        <section class="chart-scroll">
-          <div id="pintsByMonthChart"></div>
-      </section>
     </section>
   </div>
 
