@@ -15,7 +15,7 @@ def update_pints_data(output_file_name: str) -> None:
     visited_locations_2_coordinates = {
         k: v["coordinates"] for k, v in existing_pints_info["location_info"].items()
     }
-    
+
     # Load and clean the data
     input_pints_df = _ids.get_pints_input_data()
     input_pints_df = _idc.clean_up_input_pints_data(input_pints_df)

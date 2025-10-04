@@ -18,14 +18,15 @@ def compute_pints_data(
     :param visited_locations_2_coordinates: Locations and their coordinates that have already been visited. This is used to avoid unneccessary calls to the Google Maps API. Defaults to None
     :return: Pints-related data which will be used for visualisation.
     """
+    friends_info, all_names = _compute_friends_info(input_pints_df)
     return {
         "total_pint_count": _compute_total_pint_count(input_pints_df),
         "pint_info": _compute_pint_info(input_pints_df),
         "location_info": _compute_location_info(
             input_pints_df, visited_locations_2_coordinates
         ),
-        "date_info": _compute_date_info(input_pints_df),
-        "friends_info": _compute_friends_info(input_pints_df),
+        "date_info": _compute_date_info(input_pints_df, all_names),
+        "friends_info": friends_info,
     }
 
 
@@ -36,7 +37,7 @@ def compute_pints_data(
 
 def _compute_friends_info(
     input_pints_df: _pd.DataFrame,
-) -> dict[_t.Any, _t.Any]:
+) -> tuple[dict[_t.Any, _t.Any], list[str]]:
     """
     Compute friend pint-related information.
 
@@ -45,8 +46,10 @@ def _compute_friends_info(
     """
     # Create a mapping from name to pint count
     name_2_pint_info = _coll.defaultdict(dict)
+    all_names = []
     for _, row in input_pints_df.iterrows():
         for name in row["company_list"]:
+            all_names.append(name)
             pint_info = name_2_pint_info[name]
             number = row["Number"]
             location = row["Location"]
@@ -68,14 +71,17 @@ def _compute_friends_info(
     df = df.sort_values("pint_count_rank", ascending=True)
     name_2_rank = df.to_dict("index")
 
-    return name_2_rank
+    return name_2_rank, all_names
 
 
-def _compute_date_info(input_pints_df: _pd.DataFrame) -> _t.Dict[str, _t.Any]:
+def _compute_date_info(
+    input_pints_df: _pd.DataFrame, all_names: _t.Iterable[str]
+) -> _t.Dict[str, _t.Any]:
     """
     Compute pints-related data.
 
     :param input_pints_df: Input pints data frame.
+    :param all_names: All names.
     :return: Pints-related date data.
     """
     date_info_dict = {}
@@ -130,6 +136,15 @@ def _compute_date_info(input_pints_df: _pd.DataFrame) -> _t.Dict[str, _t.Any]:
     )
     stats_per_entry_df["cumulative_number"] = stats_per_entry_df["Number"].cumsum()
     stats_per_entry_dict = stats_per_entry_df.to_dict(orient="index")
+
+    name_2_cumulative_pints = {x: 0.0 for x in all_names}
+    for info in stats_per_entry_dict.values():
+        for name in info["company"]:
+            name_2_cumulative_pints[name] += info["Number"]
+
+        # Take a shallow copy
+        info["company_2_cumulative_pints"] = dict(name_2_cumulative_pints)
+
     date_info_dict["time_series_entry_info"] = stats_per_entry_dict
 
     # Stats per day
@@ -139,6 +154,9 @@ def _compute_date_info(input_pints_df: _pd.DataFrame) -> _t.Dict[str, _t.Any]:
             "cumulative_number": "max",
             "company": "sum",  # Does this entry make sense?
         }
+    )
+    stats_per_date_df["company"] = stats_per_date_df["company"].apply(
+        lambda x: list(set(x))
     )
     stats_per_date_dict = stats_per_date_df.to_dict(orient="index")
     date_info_dict["time_series_date_info"] = stats_per_date_dict
