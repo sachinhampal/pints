@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+
+:root {
+  --bg: #f4f2ec;
+  --accent: #1c1c1c;
+  --highlight: #d4a373;
+  --button-bg: #1c1c1c;
+  --button-text: #f4f2ec;
+}
+
+.landing-page {
+  background-color: var(--bg);
+  font-family: 'IBM Plex Mono', monospace;
+  color: var(--accent);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Navbar */
+.landing-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 4rem;
+  background-color: var(--bg);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+/* Button group on the right */
+.nav-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1rem; /* controls button proximity */
+}
+
+.logo {
+  font-family: 'Pixelify Sans', sans-serif;
+  font-size: 2rem;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  border: none;
+  padding: 0.8rem 1.8rem;
+  border-radius: 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: var(--highlight);
+  color: var(--accent);
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 2rem;
+  flex-wrap: wrap;
+  min-height: 80vh;
+}
+
+.hero-content {
+  flex: 1;
+  min-width: 320px;
+}
+
+.hero-title {
+  font-family: 'Pixelify Sans', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+}
+
+.hero-subtitle {
+  font-size: 1.1rem;
+  max-width: 500px;
+  margin-bottom: 2rem;
+  color: #4a4a4a;
+}
+
+
+.hero-side {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.illustration {
+  width: 80%;
+  max-width: 420px;
+}
+
+/* Features */
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 4rem;
+  flex-wrap: wrap;
+  background-color: #fff;
+  border-top: 2px solid #ece9e2;
+}
+
+.feature-card {
+  background-color: #f9f8f4;
+  padding: 2rem;
+  border-radius: 20px;
+  width: 280px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: #ece9e2;
+  font-size: 0.9rem;
+  color: #4a4a4a;
+}

@@ -37,6 +37,6 @@ _COLUMN_NAME_TO_DTYPE = {
     "Number": float,
     "Cost (per pint)": str,
     "Company": str,
-    "Comments": str,
+    # "Comments": str,
     "Spend": str,
 }

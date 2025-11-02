@@ -1,0 +1,123 @@
+/* src/styles.css - adapted from your original CSS + small tweaks */
+
+:root{
+  --beige-bg: #f1ede1;
+  --panel-bg: #f0f0f0;
+  --accent-border: #98968f;
+  --header-bg: #e4dad1;
+  --foreground: #605e57;
+}
+
+/* Base */
+body {
+  margin: 0;
+  font-family: "Pixelify Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: var(--beige-bg);
+  color: var(--foreground);
+}
+
+/* Layout classes (mirrors your original) */
+.left {
+  flex: 1;
+  background-color: var(--panel-bg);
+  padding: 0;
+}
+
+.right {
+  flex: 1;
+  background-color: var(--panel-bg);
+}
+
+.top {
+  background: var(--panel-bg);
+}
+
+.bottom {
+  background: var(--panel-bg);
+}
+
+.chart {
+  height: 75%;
+  width: 75%;
+  box-sizing: border-box;
+}
+
+.grid {
+  height: 75%;
+  width: 69%;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+/* Full-page container (as in your original index.html containers) */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  box-sizing: border-box;
+  padding: 18px 20px;
+}
+
+/* Shorter container (calendar) */
+.container-small {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50vh;
+  box-sizing: border-box;
+  padding: 12px 16px;
+}
+
+/* Leaderboard grid wrapper: fixed region + internal scroll */
+.leaderboard-wrapper {
+  height: 75%;
+  width: 69%;
+  border: 1px solid var(--accent-border);
+  border-radius: 8px;
+  background: white;
+  overflow-y: auto; /* THIS makes the internal grid scroll */
+  box-shadow: 0 6px 14px rgba(0,0,0,0.06);
+}
+
+/* make charts visually centered in their container */
+.chart-wrapper {
+  height: 75%;
+  width: 75%;
+  display: flex;
+  align-items: right;
+  justify-content: right;
+}
+
+/* Typography hints (title fonts) */
+.title-ibm {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 28px;
+  margin: 8px 0 16px 0;
+}
+
+/* AG Grid overrides (light theme look matching your theme params) */
+.ag-theme-alpine {
+  --ag-background-color: #F1EDE1;
+  --ag-foreground-color: #605E57;
+  --ag-header-background-color: #E4DAD1;
+  --ag-header-foreground-color: #3C3A35;
+  --ag-border-color: #98968F;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 16px;
+}
+
+.ag-header {
+  background: var(--ag-header-background-color);
+}
+
+/* make AG Grid row padding similar to your theme */
+.ag-cell {
+  padding: 12px 10px;
+}
+
+/* small helper to ensure chart container sizing in echarts-for-react */
+.echarts-full {
+  height: 100% !important;
+  width: 100% !important;
+}

@@ -1,0 +1,7 @@
+/* src/styles/ui-styles/index.css */
+@import "./global.css";
+@import "./leaderboard.css";
+@import "./table.css";
+@import "./chart.css";
+@import "./ag-grid-pubtracker.css";
+@import "./landing.css";

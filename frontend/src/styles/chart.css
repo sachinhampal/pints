@@ -1,0 +1,43 @@
+/* src/styles/ui-styles/chart.css */
+
+.chart-container {
+  width: 80%;
+  height: 60vh;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  padding: 1rem;
+}
+
+.chart-title {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.chart-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem 2rem;
+  min-height: 100vh;
+  color: var(--text);
+  gap: 4rem;
+}
+
+.chart-side {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.echarts-pie {
+  width: 90% !important;
+  height: 90% !important;
+}

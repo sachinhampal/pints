@@ -202,9 +202,9 @@ def _compute_location_info(
     api_key = _os.getenv("GOOGLE_MAPS_API_KEY")
     url = "https://maps.googleapis.com/maps/api/geocode/json"
     for name, info_dict in location_name_2_info_dict.items():
-        name_str = str(name)  # Adding this comment as Pylance complains
+
         if name in visited_locations_2_coordinates:
-            info_dict["coordinates"] = visited_locations_2_coordinates[name_str]
+            info_dict["coordinates"] = visited_locations_2_coordinates[name_str]  # type: ignore
             continue
 
         params = {

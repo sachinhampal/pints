@@ -1,0 +1,20 @@
+/* src/styles/ag-grid-pubtracker.css */
+.ag-theme-pubtracker .ag-header {
+  background-color: #ece9e2 !important;
+  color: #1c1c1c !important;
+  font-weight: 700 !important;
+  font-family: 'IBM Plex Mono', monospace !important;
+}
+
+.ag-theme-pubtracker .ag-row:hover {
+  background-color: #f3eed9 !important;
+}
+
+.ag-theme-pubtracker .ag-cell {
+  border-right: 1px solid #d8d4cc !important;
+  font-family: 'IBM Plex Mono', monospace !important;
+}
+
+.ag-theme-pubtracker .ag-header-cell {
+  border-right: 1px solid #d8d4cc !important;
+}

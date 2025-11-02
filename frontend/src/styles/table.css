@@ -1,0 +1,25 @@
+/* src/styles/ui-styles/table.css */
+
+.table-wrapper {
+  width: 90%;
+  height: 70vh;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+/* AG Grid theming */
+.ag-theme-alpine {
+  --ag-background-color: #fff;
+  --ag-header-background-color: #e8e8e8;
+  --ag-header-foreground-color: #222;
+  --ag-font-family: "IBM Plex Mono", monospace;
+  --ag-row-hover-color: #fafafa;
+  --ag-row-border-color: #ddd;
+}
+
+.ag-root-wrapper {
+  border-radius: 12px !important;
+}
